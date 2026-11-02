@@ -1,13 +1,13 @@
-# In-game test for lopbutcheringcompat 0.1.0 (for Nick)
+# In-game test for lopbutcheringcompat 0.1.1 (for Nick)
 
 Setup (you install; nothing was put in Mods by this run):
-1. Back up Mods. Copy into Mods: `work\dl\butchering_1.14.3.zip` (Butchering, ModDB latest) and `out\lopbutcheringcompat_0.1.0.zip`.
+1. Back up Mods. Copy into Mods: `work\dl\butchering_1.14.3.zip` (Butchering, ModDB latest) and `out\lopbutcheringcompat_0.1.1.zip`.
 2. Use a creative test world first (or a copy of your world). Butchering adds its own blocks/items; removing it later leaves unknown blocks/items in that world.
 
 Pilot: Carnivorous Bull (abelisauridae). Expected values come from `work\coverage\abelisauridae.csv`.
 3. Spawn an adult male Carnotaurus (creative inventory spawn item "Carnotaurus (Male)", or your usual spawn command) and kill it. Wait for the death animation.
 4. With an EMPTY right hand, right-click the corpse. Expect: item "Carnotaurus carcass" in your hand/inventory, corpse gone. Walk: you should be noticeably slower (mass 0.1, about -20% walk speed).
-5. Repeat with `abelisauridae-carnotaurus-baby-female`: "Carnotaurus juvenile carcass", slowdown about -6%.
+5. Repeat with `abelisauridae-carnotaurus-baby-female`: "Carnotaurus juvenile carcass", small class (fox anchor, mass 0.01): slowdown about -2%.
 6. Build Butchering's butcher hook (check the handbook for its recipe) with a bucket 1-6 blocks below. Hang the adult carcass. After about 4 in-game hours (workload large) bleed it out: the bucket gets 400 blood portions (cap 1000).
 7. Skin on the hook: expect LoP's hide and fat drops (adult carnotaurus: `hide-raw-huge` avg 5, `fat` avg 15) plus nothing extra (skinningRewards empty).
 8. Butcher the bled-out carcass on the butcher table: expect LoP's meat (`bushmeat-raw` avg 100) plus anchor extras from Butchering's brown bear: `sinew-wet` avg 3, `offal-bloody` avg 4. The vanilla `carcass-large` block should be placed after butchering.
