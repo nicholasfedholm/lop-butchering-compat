@@ -116,10 +116,10 @@
   },
   "deadtherizinosauridae-alxasaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -129,24 +129,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -222,10 +214,10 @@
   },
   "deadtherizinosauridae-erliansaurus-adult-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.06,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -235,7 +227,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -243,7 +235,7 @@
      "type": "item",
      "code": "butchering:primemeat-raw",
      "quantity": {
-      "avg": 3,
+      "avg": 2,
       "var": 1
      }
     },
@@ -251,7 +243,7 @@
      "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
+      "avg": 3,
       "var": 1
      }
     }
@@ -570,7 +562,7 @@
   },
   "deadtherizinosauridae-segnosaurus-adult-1-*": {
    "size": 0.5,
-   "mass": 0.06,
+   "mass": 0.16,
    "bloodType": "butchering:bloodportion",
    "bloodAmount": 400,
    "butcheringWorkLoad": "large",
@@ -583,7 +575,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -591,8 +583,8 @@
      "type": "item",
      "code": "butchering:primemeat-raw",
      "quantity": {
-      "avg": 2,
-      "var": 1
+      "avg": 6,
+      "var": 2
      }
     },
     {
@@ -600,7 +592,7 @@
      "code": "butchering:offal-bloody",
      "quantity": {
       "avg": 3,
-      "var": 1
+      "var": 0.5
      }
     }
    ],
@@ -722,7 +714,7 @@
   },
   "deadtherizinosauridae-therizinosaurus-adult-1-*": {
    "size": 0.5,
-   "mass": 0.06,
+   "mass": 0.16,
    "bloodType": "butchering:bloodportion",
    "bloodAmount": 400,
    "butcheringWorkLoad": "large",
@@ -735,7 +727,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -743,8 +735,8 @@
      "type": "item",
      "code": "butchering:primemeat-raw",
      "quantity": {
-      "avg": 2,
-      "var": 1
+      "avg": 6,
+      "var": 2
      }
     },
     {
@@ -752,7 +744,7 @@
      "code": "butchering:offal-bloody",
      "quantity": {
       "avg": 3,
-      "var": 1
+      "var": 0.5
      }
     }
    ],
@@ -802,7 +794,7 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadtherizinosauridae-alxasaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadtherizinosauridae-beipiaosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericmedium/medium-dead"
@@ -811,7 +803,7 @@
    "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadtherizinosauridae-erliansaurus-adult-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadtherizinosauridae-erliansaurus-baby-1-*": {
    "base": "butchering:creatures/modded/genericsmall/small-dead"
@@ -841,7 +833,7 @@
    "base": "butchering:creatures/modded/genericmedium/medium-dead"
   },
   "deadtherizinosauridae-segnosaurus-adult-1-*": {
-   "base": "butchering:creatures/modded/genericlarge/large-dead"
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
   },
   "deadtherizinosauridae-segnosaurus-baby-1-*": {
    "base": "butchering:creatures/modded/genericmedium/medium-dead"
@@ -853,7 +845,7 @@
    "base": "butchering:creatures/modded/genericmedium/medium-dead"
   },
   "deadtherizinosauridae-therizinosaurus-adult-1-*": {
-   "base": "butchering:creatures/modded/genericlarge/large-dead"
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
   },
   "deadtherizinosauridae-therizinosaurus-baby-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"

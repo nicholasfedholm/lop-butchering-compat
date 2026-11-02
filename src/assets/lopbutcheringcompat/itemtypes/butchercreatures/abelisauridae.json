@@ -15,6 +15,7 @@
     "ekrixinatosaurus",
     "ilokelesia",
     "majungasaurus",
+    "masiakasaurus",
     "pycnonemosaurus",
     "rahiolisaurus",
     "rajasaurus",
@@ -124,10 +125,10 @@
   },
   "deadabelisauridae-abelisaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -137,7 +138,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -145,8 +146,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -200,10 +201,10 @@
   },
   "deadabelisauridae-arcovenator-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -213,7 +214,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -221,8 +222,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -276,10 +277,10 @@
   },
   "deadabelisauridae-aucasaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -289,7 +290,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -297,8 +298,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -352,10 +353,10 @@
   },
   "deadabelisauridae-carnotaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -365,7 +366,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -373,8 +374,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -428,10 +429,10 @@
   },
   "deadabelisauridae-chenanisaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -441,7 +442,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -449,8 +450,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -504,10 +505,10 @@
   },
   "deadabelisauridae-dahalokely-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -517,7 +518,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -525,8 +526,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -580,10 +581,10 @@
   },
   "deadabelisauridae-ekrixinatosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -593,7 +594,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -601,8 +602,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -656,10 +657,10 @@
   },
   "deadabelisauridae-ilokelesia-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -669,7 +670,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -677,8 +678,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -732,6 +733,44 @@
   },
   "deadabelisauridae-majungasaurus-baby-1-*": {
    "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadabelisauridae-masiakasaurus-adult-1-*": {
+   "size": 0.5,
    "mass": 0.03,
    "bloodType": "butchering:bloodportion",
    "bloodAmount": 100,
@@ -755,6 +794,44 @@
      "quantity": {
       "avg": 3,
       "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadabelisauridae-masiakasaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -808,10 +885,10 @@
   },
   "deadabelisauridae-pycnonemosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -821,7 +898,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -829,8 +906,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -884,10 +961,10 @@
   },
   "deadabelisauridae-rahiolisaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -897,7 +974,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -905,8 +982,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -960,10 +1037,10 @@
   },
   "deadabelisauridae-rajasaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -973,7 +1050,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -981,8 +1058,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -1036,10 +1113,10 @@
   },
   "deadabelisauridae-rugops-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1049,7 +1126,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -1057,8 +1134,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -1112,10 +1189,10 @@
   },
   "deadabelisauridae-skorpiovenator-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1125,7 +1202,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -1133,8 +1210,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -1188,10 +1265,10 @@
   },
   "deadabelisauridae-tarascosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1201,7 +1278,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -1209,8 +1286,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -1264,10 +1341,10 @@
   },
   "deadabelisauridae-thanos-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1277,7 +1354,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -1285,8 +1362,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -1340,10 +1417,10 @@
   },
   "deadabelisauridae-viavenator-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1353,7 +1430,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -1361,8 +1438,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -1416,10 +1493,10 @@
   },
   "deadabelisauridae-xenotarsosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1429,7 +1506,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -1437,8 +1514,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -1458,109 +1535,115 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-abelisaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-arcovenator-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-arcovenator-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-aucasaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-aucasaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-carnotaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-carnotaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-chenanisaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-chenanisaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-dahalokely-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-dahalokely-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-ekrixinatosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-ekrixinatosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-ilokelesia-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-ilokelesia-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-majungasaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-majungasaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadabelisauridae-masiakasaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadabelisauridae-masiakasaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-pycnonemosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-pycnonemosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-rahiolisaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-rahiolisaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-rajasaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-rajasaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-rugops-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-rugops-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-skorpiovenator-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-skorpiovenator-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-tarascosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-tarascosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-thanos-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-thanos-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-viavenator-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-viavenator-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadabelisauridae-xenotarsosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadabelisauridae-xenotarsosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   }
  },
  "storageFlagsByType": {

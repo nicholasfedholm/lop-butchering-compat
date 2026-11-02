@@ -878,10 +878,10 @@
   },
   "deadtyrannosauridae-tyrannosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.01,
+   "mass": 0.03,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 50,
-   "butcheringWorkLoad": "small",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -891,7 +891,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -899,8 +899,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 1.6,
-      "var": 0.4
+      "avg": 3,
+      "var": 1
      }
     },
     {
@@ -1056,7 +1056,7 @@
    "base": "butchering:creatures/modded/generichuge/huge-dead"
   },
   "deadtyrannosauridae-tyrannosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericsmall/small-dead"
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
   },
   "deadtyrannosauridae-zhuchengtyrannus-adult-1-*": {
    "base": "butchering:creatures/modded/generichuge/huge-dead"

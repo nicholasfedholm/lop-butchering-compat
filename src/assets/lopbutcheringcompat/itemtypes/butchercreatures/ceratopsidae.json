@@ -181,10 +181,10 @@
   },
   "deadceratopsidae-centrosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -194,24 +194,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -325,10 +317,10 @@
   },
   "deadceratopsidae-machairoceratops-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -338,24 +330,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -469,10 +453,10 @@
   },
   "deadceratopsidae-nedoceratops-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -482,24 +466,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -545,10 +521,10 @@
   },
   "deadceratopsidae-pachyrhinosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -558,24 +534,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -621,6 +589,36 @@
   },
   "deadceratopsidae-pentaceratops-baby-1-*": {
    "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadceratopsidae-protoceratops-adult-1-*": {
+   "size": 0.5,
    "mass": 0.03,
    "bloodType": "butchering:bloodportion",
    "bloodAmount": 100,
@@ -652,36 +650,6 @@
      "quantity": {
       "avg": 4,
       "var": 1
-     }
-    }
-   ],
-   "skinningRewards": []
-  },
-  "deadceratopsidae-protoceratops-adult-1-*": {
-   "size": 0.5,
-   "mass": 0.01,
-   "bloodType": "butchering:bloodportion",
-   "bloodAmount": 50,
-   "butcheringWorkLoad": "small",
-   "handbookByType": {
-    "*-rotten": {
-     "exclude": false
-    },
-    "*": {
-     "exclude": true
-    }
-   },
-   "hangingShape": {
-    "base": "butchering:creatures/modded/genericsmall/small-hanging"
-   },
-   "excludeRewards": [],
-   "butcheringRewards": [
-    {
-     "type": "item",
-     "code": "butchering:offal-bloody",
-     "quantity": {
-      "avg": 1.6,
-      "var": 0.4
      }
     }
    ],
@@ -757,10 +725,10 @@
   },
   "deadceratopsidae-regaliceratops-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -770,24 +738,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -833,10 +793,10 @@
   },
   "deadceratopsidae-sinoceratops-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -846,24 +806,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -909,10 +861,10 @@
   },
   "deadceratopsidae-styracosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -922,24 +874,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -985,10 +929,10 @@
   },
   "deadceratopsidae-torosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -998,24 +942,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1061,10 +997,10 @@
   },
   "deadceratopsidae-triceratops-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1074,24 +1010,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1137,10 +1065,10 @@
   },
   "deadceratopsidae-xenoceratops-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1150,24 +1078,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1185,7 +1105,7 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadceratopsidae-centrosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadceratopsidae-leptoceratops-adult-1-*": {
    "base": "butchering:creatures/modded/genericmedium/medium-dead"
@@ -1197,7 +1117,7 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadceratopsidae-machairoceratops-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadceratopsidae-nasutoceratops-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
@@ -1209,22 +1129,22 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadceratopsidae-nedoceratops-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadceratopsidae-pachyrhinosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadceratopsidae-pachyrhinosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadceratopsidae-pentaceratops-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadceratopsidae-pentaceratops-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadceratopsidae-protoceratops-adult-1-*": {
-   "base": "butchering:creatures/modded/genericsmall/small-dead"
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
   },
   "deadceratopsidae-protoceratops-baby-1-*": {
    "base": "butchering:creatures/modded/genericsmall/small-dead"
@@ -1233,37 +1153,37 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadceratopsidae-regaliceratops-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadceratopsidae-sinoceratops-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadceratopsidae-sinoceratops-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadceratopsidae-styracosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadceratopsidae-styracosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadceratopsidae-torosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadceratopsidae-torosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadceratopsidae-triceratops-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadceratopsidae-triceratops-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadceratopsidae-xenoceratops-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadceratopsidae-xenoceratops-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   }
  },
  "storageFlagsByType": {

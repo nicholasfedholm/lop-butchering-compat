@@ -133,10 +133,10 @@
   },
   "deadhadrosauroidea-acristavus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -146,24 +146,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -209,10 +201,10 @@
   },
   "deadhadrosauroidea-amurosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -222,24 +214,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -285,10 +269,10 @@
   },
   "deadhadrosauroidea-arenysaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -298,24 +282,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -361,10 +337,10 @@
   },
   "deadhadrosauroidea-barsboldia-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -374,24 +350,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -437,10 +405,10 @@
   },
   "deadhadrosauroidea-bonapartesaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -450,24 +418,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -513,10 +473,10 @@
   },
   "deadhadrosauroidea-brachylophosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -526,24 +486,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -589,10 +541,10 @@
   },
   "deadhadrosauroidea-canardia-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -602,24 +554,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -665,10 +609,10 @@
   },
   "deadhadrosauroidea-charonosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -678,24 +622,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -741,10 +677,10 @@
   },
   "deadhadrosauroidea-corythosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -754,24 +690,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -893,10 +821,10 @@
   },
   "deadhadrosauroidea-gryposaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -906,24 +834,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1045,10 +965,10 @@
   },
   "deadhadrosauroidea-hypacrosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1058,24 +978,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1121,10 +1033,10 @@
   },
   "deadhadrosauroidea-hypsibema-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1134,24 +1046,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1197,10 +1101,10 @@
   },
   "deadhadrosauroidea-kazaklambia-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1210,24 +1114,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1273,10 +1169,10 @@
   },
   "deadhadrosauroidea-lambeosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1286,24 +1182,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1425,10 +1313,10 @@
   },
   "deadhadrosauroidea-maiasaura-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1438,24 +1326,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1501,10 +1381,10 @@
   },
   "deadhadrosauroidea-olorotitan-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1514,24 +1394,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1577,10 +1449,10 @@
   },
   "deadhadrosauroidea-pararhabdodon-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1590,24 +1462,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1653,10 +1517,10 @@
   },
   "deadhadrosauroidea-parasaurolophus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1666,24 +1530,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1729,10 +1585,10 @@
   },
   "deadhadrosauroidea-probactrosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1742,24 +1598,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1805,10 +1653,10 @@
   },
   "deadhadrosauroidea-saurolophus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1818,24 +1666,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -1881,10 +1721,10 @@
   },
   "deadhadrosauroidea-secernosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -1894,24 +1734,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -2033,10 +1865,10 @@
   },
   "deadhadrosauroidea-tanius-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -2046,24 +1878,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -2109,10 +1933,10 @@
   },
   "deadhadrosauroidea-telmatosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -2122,24 +1946,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -2151,55 +1967,55 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-acristavus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-amurosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-amurosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-arenysaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-arenysaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-barsboldia-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-barsboldia-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-bonapartesaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-bonapartesaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-brachylophosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-brachylophosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-canardia-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-canardia-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-charonosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-charonosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-corythosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-corythosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-edmontosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/generichuge/huge-dead"
@@ -2211,7 +2027,7 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-gryposaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-hadrosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/generichuge/huge-dead"
@@ -2223,25 +2039,25 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-hypacrosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-hypsibema-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-hypsibema-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-kazaklambia-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-kazaklambia-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-lambeosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-lambeosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-magnapaulia-adult-1-*": {
    "base": "butchering:creatures/modded/generichuge/huge-dead"
@@ -2253,43 +2069,43 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-maiasaura-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-olorotitan-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-olorotitan-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-pararhabdodon-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-pararhabdodon-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-parasaurolophus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-parasaurolophus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-probactrosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-probactrosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-saurolophus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-saurolophus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-secernosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-secernosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-shangtungosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/generichuge/huge-dead"
@@ -2301,13 +2117,13 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-tanius-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadhadrosauroidea-telmatosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadhadrosauroidea-telmatosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   }
  },
  "storageFlagsByType": {

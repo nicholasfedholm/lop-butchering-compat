@@ -6,6 +6,7 @@
   {
    "code": "species",
    "states": [
+    "amargasaurus",
     "apatosaurus",
     "barosaurus",
     "diplodocus",
@@ -71,6 +72,74 @@
   }
  },
  "attributesByType": {
+  "deaddiplodocoidea-amargasaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.16,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deaddiplodocoidea-amargasaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
   "deaddiplodocoidea-apatosaurus-adult-1-*": {
    "size": 0.5,
    "mass": 0.4,
@@ -453,6 +522,12 @@
   }
  },
  "shapeByType": {
+  "deaddiplodocoidea-amargasaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deaddiplodocoidea-amargasaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
   "deaddiplodocoidea-apatosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/generichuge/huge-dead"
   },

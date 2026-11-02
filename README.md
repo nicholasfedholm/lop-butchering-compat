@@ -8,6 +8,6 @@ Optional compat mod for Vintage Story 1.22.7: makes Legacy of the Phanerozoic di
 - Size classes small / medium / large / giant / colossal. Giants (tyrannosaurs, big hadrosaurs) carry like Butchering's elephants (mass 0.16). Sauropods (colossal) use mass 0.4, which hits Butchering's -80% walk-speed clamp.
 - Only appends a `butcherable` behavior. Existing behavior indices (which ConfigLib patches address) do not change.
 
-Build: `python -I scripts/gen_family.py <family...>` then `python -I scripts/build_verify.py <version>` (set `VS_MODS` to your Mods folder; the scripts need the Butchering 1.14.3 assets extracted to `work/ex/butchering`).
+Build: `python -I scripts/gen_family.py <family...>` then `python -I scripts/build_verify.py <version>` (set `VS_MODS` to your Mods folder; the scripts need the Butchering 1.14.3 assets extracted to `work/ex/butchering`). Set `RUNTIME_DB` to a runtime dump database (merged, post-patch entities) so species added by load-time patches and ConfigLib-scaled drops are included; 0.1.1 was built that way.
 
 Coverage tables per family: `coverage/*.csv`. In-game test steps: TEST.md.

@@ -148,10 +148,10 @@
   },
   "deadichthyosauria-ophthalmosaurus-adult-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.1,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -161,7 +161,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -177,8 +177,8 @@
      "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 1.6,
-      "var": 0.4
+      "avg": 4,
+      "var": 1
      }
     }
    ],
@@ -383,7 +383,7 @@
    "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadichthyosauria-ophthalmosaurus-adult-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadichthyosauria-ophthalmosaurus-baby-1-*": {
    "base": "butchering:creatures/modded/genericsmall/small-dead"

@@ -7,8 +7,11 @@
    "code": "species",
    "states": [
     "iguanodon",
+    "leaellynasaura",
     "mantellisaurus",
-    "ouranosaurus"
+    "muttaburrasaurus",
+    "ouranosaurus",
+    "trinisaura"
    ]
   },
   {
@@ -109,6 +112,36 @@
   },
   "deadiguanodontia-iguanodon-baby-1-*": {
    "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadiguanodontia-leaellynasaura-adult-1-*": {
+   "size": 0.5,
    "mass": 0.03,
    "bloodType": "butchering:bloodportion",
    "bloodAmount": 100,
@@ -140,6 +173,36 @@
      "quantity": {
       "avg": 4,
       "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadiguanodontia-leaellynasaura-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -185,10 +248,10 @@
   },
   "deadiguanodontia-mantellisaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -198,7 +261,37 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadiguanodontia-muttaburrasaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -206,7 +299,7 @@
      "type": "item",
      "code": "butchering:primemeat-raw",
      "quantity": {
-      "avg": 3,
+      "avg": 2,
       "var": 1
      }
     },
@@ -214,8 +307,38 @@
      "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
+      "avg": 3,
       "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadiguanodontia-muttaburrasaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -261,6 +384,36 @@
   },
   "deadiguanodontia-ouranosaurus-baby-1-*": {
    "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadiguanodontia-trinisaura-adult-1-*": {
+   "size": 0.5,
    "mass": 0.03,
    "bloodType": "butchering:bloodportion",
    "bloodAmount": 100,
@@ -292,6 +445,36 @@
      "quantity": {
       "avg": 4,
       "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadiguanodontia-trinisaura-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -303,19 +486,37 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadiguanodontia-iguanodon-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadiguanodontia-leaellynasaura-adult-1-*": {
    "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadiguanodontia-leaellynasaura-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadiguanodontia-mantellisaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadiguanodontia-mantellisaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadiguanodontia-muttaburrasaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadiguanodontia-muttaburrasaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadiguanodontia-ouranosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadiguanodontia-ouranosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadiguanodontia-trinisaura-adult-1-*": {
    "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadiguanodontia-trinisaura-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   }
  },
  "storageFlagsByType": {

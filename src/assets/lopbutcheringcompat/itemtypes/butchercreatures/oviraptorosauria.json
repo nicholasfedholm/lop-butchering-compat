@@ -8,6 +8,7 @@
    "states": [
     "citipati",
     "conchoraptor",
+    "gigantoraptor",
     "khaan",
     "oviraptor"
    ]
@@ -198,6 +199,74 @@
    ],
    "skinningRewards": []
   },
+  "deadoviraptorosauria-gigantoraptor-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadoviraptorosauria-gigantoraptor-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
   "deadoviraptorosauria-khaan-adult-1-*": {
    "size": 0.5,
    "mass": 0.01,
@@ -338,6 +407,12 @@
    "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadoviraptorosauria-conchoraptor-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadoviraptorosauria-gigantoraptor-adult-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadoviraptorosauria-gigantoraptor-baby-1-*": {
    "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadoviraptorosauria-khaan-adult-1-*": {

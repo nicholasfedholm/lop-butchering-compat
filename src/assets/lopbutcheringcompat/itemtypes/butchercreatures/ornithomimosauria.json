@@ -120,10 +120,10 @@
   },
   "deadornithomimosauria-deinocheirus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.06,
+   "mass": 0.03,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 400,
-   "butcheringWorkLoad": "large",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -133,7 +133,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -141,7 +141,7 @@
      "type": "item",
      "code": "butchering:primemeat-raw",
      "quantity": {
-      "avg": 2,
+      "avg": 3,
       "var": 1
      }
     },
@@ -149,7 +149,7 @@
      "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 3,
+      "avg": 4,
       "var": 1
      }
     }
@@ -264,10 +264,10 @@
   },
   "deadornithomimosauria-dzharacursor-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -277,24 +277,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -340,10 +332,10 @@
   },
   "deadornithomimosauria-gallimimus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -353,24 +345,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -756,10 +740,10 @@
   },
   "deadornithomimosauria-paraxenisaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -769,24 +753,16 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:primemeat-raw",
-     "quantity": {
-      "avg": 3,
-      "var": 1
-     }
-    },
-    {
-     "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     }
    ],
@@ -862,10 +838,10 @@
   },
   "deadornithomimosauria-sinornithomimus-adult-1-*": {
    "size": 0.5,
-   "mass": 0.06,
+   "mass": 0.03,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 400,
-   "butcheringWorkLoad": "large",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -875,7 +851,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -883,7 +859,7 @@
      "type": "item",
      "code": "butchering:primemeat-raw",
      "quantity": {
-      "avg": 2,
+      "avg": 3,
       "var": 1
      }
     },
@@ -891,7 +867,7 @@
      "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 3,
+      "avg": 4,
       "var": 1
      }
     }
@@ -1070,7 +1046,7 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadornithomimosauria-deinocheirus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericlarge/large-dead"
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
   },
   "deadornithomimosauria-dromiceiomimus-adult-1-*": {
    "base": "butchering:creatures/modded/genericmedium/medium-dead"
@@ -1082,13 +1058,13 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadornithomimosauria-dzharacursor-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadornithomimosauria-gallimimus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadornithomimosauria-gallimimus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadornithomimosauria-garudimimus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
@@ -1124,7 +1100,7 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadornithomimosauria-paraxenisaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadornithomimosauria-pelecanimimus-adult-1-*": {
    "base": "butchering:creatures/modded/genericmedium/medium-dead"
@@ -1133,7 +1109,7 @@
    "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadornithomimosauria-sinornithomimus-adult-1-*": {
-   "base": "butchering:creatures/modded/genericlarge/large-dead"
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
   },
   "deadornithomimosauria-sinornithomimus-baby-1-*": {
    "base": "butchering:creatures/modded/genericsmall/small-dead"

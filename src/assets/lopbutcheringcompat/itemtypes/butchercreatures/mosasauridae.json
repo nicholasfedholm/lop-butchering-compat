@@ -192,10 +192,10 @@
   },
   "deadmosasauridae-kaikaifilu-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -205,7 +205,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -213,8 +213,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -268,10 +268,10 @@
   },
   "deadmosasauridae-moanasaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -281,7 +281,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -289,8 +289,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -306,7 +306,7 @@
   },
   "deadmosasauridae-mosasaurus-adult-1-*": {
    "size": 0.5,
-   "mass": 0.1,
+   "mass": 0.16,
    "bloodType": "butchering:bloodportion",
    "bloodAmount": 400,
    "butcheringWorkLoad": "large",
@@ -319,24 +319,24 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
     {
      "type": "item",
-     "code": "butchering:sinew-wet",
+     "code": "butchering:primemeat-raw",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 6,
+      "var": 2
      }
     },
     {
      "type": "item",
      "code": "butchering:offal-bloody",
      "quantity": {
-      "avg": 4,
-      "var": 1
+      "avg": 3,
+      "var": 0.5
      }
     }
    ],
@@ -496,10 +496,10 @@
   },
   "deadmosasauridae-plotosaurus-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -509,7 +509,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -517,8 +517,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -572,10 +572,10 @@
   },
   "deadmosasauridae-prognathodon-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -585,7 +585,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -593,8 +593,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -724,10 +724,10 @@
   },
   "deadmosasauridae-thalassotitan-baby-1-*": {
    "size": 0.5,
-   "mass": 0.03,
+   "mass": 0.01,
    "bloodType": "butchering:bloodportion",
-   "bloodAmount": 100,
-   "butcheringWorkLoad": "medium",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
    "handbookByType": {
     "*-rotten": {
      "exclude": false
@@ -737,7 +737,7 @@
     }
    },
    "hangingShape": {
-    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
    },
    "excludeRewards": [],
    "butcheringRewards": [
@@ -745,8 +745,8 @@
      "type": "item",
      "code": "butchering:sinew-wet",
      "quantity": {
-      "avg": 3,
-      "var": 1
+      "avg": 1.6,
+      "var": 0.4
      }
     },
     {
@@ -848,16 +848,16 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadmosasauridae-kaikaifilu-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadmosasauridae-moanasaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadmosasauridae-moanasaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadmosasauridae-mosasaurus-adult-1-*": {
-   "base": "butchering:creatures/modded/genericlarge/large-dead"
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
   },
   "deadmosasauridae-mosasaurus-baby-1-*": {
    "base": "butchering:creatures/modded/genericmedium/medium-dead"
@@ -872,13 +872,13 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadmosasauridae-plotosaurus-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadmosasauridae-prognathodon-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadmosasauridae-prognathodon-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadmosasauridae-taniwhasaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"
@@ -890,7 +890,7 @@
    "base": "butchering:creatures/modded/genericlarge/large-dead"
   },
   "deadmosasauridae-thalassotitan-baby-1-*": {
-   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
   },
   "deadmosasauridae-tylosaurus-adult-1-*": {
    "base": "butchering:creatures/modded/genericlarge/large-dead"

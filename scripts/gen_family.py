@@ -67,6 +67,26 @@ def cls_hb(y):
 
 MEATY = ('meat', 'poultry', 'fish', 'bushmeat', 'redmeat')
 
+RUNTIME_DB = os.environ.get('RUNTIME_DB')
+
+def variant_source(ent, domain):
+    """Yield (code, variantdict, resolved, harvestable, hitbox_y). With RUNTIME_DB set, use the merged post-patch
+    entities from a runtime-dump runtime.db (includes species added by load-time patches and ConfigLib-scaled drops)."""
+    if RUNTIME_DB:
+        import sqlite3
+        c = sqlite3.connect(RUNTIME_DB)
+        pref = ent['code'] + '-'
+        for code, vj, sb, fj in c.execute("select code, variant_json, server_behaviors_json, final_json from entities where domain=? and code like ? order by code", (domain, pref + '%')):
+            vg = json.loads(vj or '{}')
+            if vg.get('age') not in ('adult', 'baby'): continue
+            h = next((b for b in json.loads(sb or '[]') if isinstance(b, dict) and b.get('code') == 'harvestable'), None)
+            cb = (json.loads(fj or '{}').get('collisionBox') or [None, None])
+            yield code, vg, {}, h, cb[1] if len(cb) > 1 else None
+    else:
+        for code, vg in L.variants(ent):
+            r = L.solve(ent, code)
+            yield code, vg, r, L.harvest(r), (r.get('hitBoxSize') or {}).get('y')
+
 def main(fam):
     zg, diet = FAMILIES[fam]
     zp = [z for z in glob.glob(os.path.join(MODS, zg)) if '.bak' not in z]
@@ -88,16 +108,13 @@ def main(fam):
         domain = e.split('/')[1]
         file_ref = f"{domain}:{e.split('/', 2)[2]}"
         item_by = {}
-        for code, vg in L.variants(ent):
-            r = L.solve(ent, code)
-            h = L.harvest(r)
+        for code, vg, r, h, hb in variant_source(ent, domain):
             if not h:
                 rows.append(dict(entity=code, file=file_ref, item='', cls='', yield_source='NO HARVESTABLE', anchor=''))
                 continue
             age = vg.get('age', 'adult')
             sp = vg.get('type') or '-'.join(v for k, v in vg.items() if k not in ('age', 'gender', 'sex')) or ent['code']
             meat = sum((d.get('quantity') or {}).get('avg') or 0 for d in h.get('drops', []) if any(m in str(d.get('code')) for m in MEATY))
-            hb = (r.get('hitBoxSize') or {}).get('y')
             cls = max(cls_meat(meat), cls_hb(hb), key=ORDER.index)
             key = (sp, age)
             g = groups.setdefault(key, dict(cls=cls, codes=[], drops=set()))

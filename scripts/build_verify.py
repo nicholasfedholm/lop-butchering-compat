@@ -9,7 +9,7 @@ import sys, os, json, glob, zipfile, hashlib, csv, fnmatch, itertools
 sys.path.insert(0, os.path.dirname(__file__))
 import lopresolve as L
 import pyjson5
-from gen_family import FAMILIES, MID, MODS, ROOT
+from gen_family import FAMILIES, MID, MODS, ROOT, variant_source
 
 BUT = os.path.join(ROOT, 'work', 'ex', 'butchering', 'assets', 'butchering')
 VER = sys.argv[1] if len(sys.argv) > 1 else '0.1.0'
@@ -95,7 +95,7 @@ for fam in fams:
         if os.environ.get('NEGTEST') == fam:  # corrupt in memory: drop first explicit key so it falls to '*'
             ib.pop([k for k in ib if k != '*'][-1])
         covmap = {r['entity']: r['item'] for r in csv.DictReader(open(os.path.join(ROOT, 'work', 'coverage', fam + '.csv'), encoding='utf-8'))}
-        for code, _ in L.variants(ent):
+        for code, *_ in variant_source(ent, dom):
             ent_checked += 1
             hit = next((v for k, v in ib.items() if L.wc_match(k, code)), None)
             if check(hit is not None, f"{fam}: {code} unmatched"):

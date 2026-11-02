@@ -16,14 +16,14 @@
   "value": {
    "code": "butcherable",
    "itemByType": {
-    "herrerasauridae-herrerasaurus-adult-male": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-adult-1-dead",
     "herrerasauridae-herrerasaurus-adult-female": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-adult-1-dead",
-    "herrerasauridae-herrerasaurus-baby-male": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-baby-1-dead",
+    "herrerasauridae-herrerasaurus-adult-male": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-adult-1-dead",
     "herrerasauridae-herrerasaurus-baby-female": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-baby-1-dead",
-    "herrerasauridae-staurikosaurus-adult-male": "lopbutcheringcompat:deadherrerasauridae-staurikosaurus-adult-1-dead",
+    "herrerasauridae-herrerasaurus-baby-male": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-baby-1-dead",
     "herrerasauridae-staurikosaurus-adult-female": "lopbutcheringcompat:deadherrerasauridae-staurikosaurus-adult-1-dead",
-    "herrerasauridae-staurikosaurus-baby-male": "lopbutcheringcompat:deadherrerasauridae-staurikosaurus-baby-1-dead",
+    "herrerasauridae-staurikosaurus-adult-male": "lopbutcheringcompat:deadherrerasauridae-staurikosaurus-adult-1-dead",
     "herrerasauridae-staurikosaurus-baby-female": "lopbutcheringcompat:deadherrerasauridae-staurikosaurus-baby-1-dead",
+    "herrerasauridae-staurikosaurus-baby-male": "lopbutcheringcompat:deadherrerasauridae-staurikosaurus-baby-1-dead",
     "*": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-adult-1-dead"
    }
   },
@@ -40,14 +40,14 @@
   "value": {
    "code": "butcherable",
    "itemByType": {
-    "herrerasauridae-herrerasaurus-adult-male": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-adult-1-dead",
     "herrerasauridae-herrerasaurus-adult-female": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-adult-1-dead",
-    "herrerasauridae-herrerasaurus-baby-male": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-baby-1-dead",
+    "herrerasauridae-herrerasaurus-adult-male": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-adult-1-dead",
     "herrerasauridae-herrerasaurus-baby-female": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-baby-1-dead",
-    "herrerasauridae-staurikosaurus-adult-male": "lopbutcheringcompat:deadherrerasauridae-staurikosaurus-adult-1-dead",
+    "herrerasauridae-herrerasaurus-baby-male": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-baby-1-dead",
     "herrerasauridae-staurikosaurus-adult-female": "lopbutcheringcompat:deadherrerasauridae-staurikosaurus-adult-1-dead",
-    "herrerasauridae-staurikosaurus-baby-male": "lopbutcheringcompat:deadherrerasauridae-staurikosaurus-baby-1-dead",
+    "herrerasauridae-staurikosaurus-adult-male": "lopbutcheringcompat:deadherrerasauridae-staurikosaurus-adult-1-dead",
     "herrerasauridae-staurikosaurus-baby-female": "lopbutcheringcompat:deadherrerasauridae-staurikosaurus-baby-1-dead",
+    "herrerasauridae-staurikosaurus-baby-male": "lopbutcheringcompat:deadherrerasauridae-staurikosaurus-baby-1-dead",
     "*": "lopbutcheringcompat:deadherrerasauridae-herrerasaurus-adult-1-dead"
    }
   },
