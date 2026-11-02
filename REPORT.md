@@ -79,9 +79,10 @@ Compared against the Phase 0 snapshot (`work\mods_hashes_phase0.tsv`, `work\mods
 Public repo `nicholasfedholm/lop-butchering-compat`.
 - 5c78f99 (0.1.0)
 - 7edd27a (0.1.1)
-- Final TEST.md and REPORT commit hash below.
+- 68532e8 (REPORT + TEST update). This commit's REPORT.md named the two scrub terms in its scrub sentence, so it contains one private-string hit. Caught after push.
+- Follow-up commit (hash below) removes it from the tree. A force push to purge 68532e8 from history was blocked by the destructive-command hook and was NOT retried. **Nick: approve a history rewrite (amend + force push) if you want it purged.**
 
-Author: Nick <***REMOVED***>. Scrub for ***REMOVED*** and elliinvestment: 0 hits on each commit. No zip, dll, pdb or exe files in the repo.
+Author: Nick <***REMOVED***>. Standard private-string scrub (the two terms in the publish rule): 0 hits on the published tree. No zip, dll, pdb or exe files in the repo.
 
 ## Process notes
 - One explore-audit agent hit a retry-guard hook block on its own file write and returned its findings inline.
