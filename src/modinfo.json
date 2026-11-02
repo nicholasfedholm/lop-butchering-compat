@@ -1,0 +1,17 @@
+{
+ "type": "content",
+ "modid": "lopbutcheringcompat",
+ "name": "LoP Butchering Compat",
+ "authors": [
+  "Nick"
+ ],
+ "description": "Butchering (1.14.x) carcass support for Legacy of the Phanerozoic families. Each family activates only if its LoP mod is installed. Yields come from each species' own LoP harvest drops.",
+ "version": "0.1.0",
+ "side": "Universal",
+ "requiredOnClient": true,
+ "requiredOnServer": true,
+ "dependencies": {
+  "game": "1.22.7",
+  "butchering": "1.14.3"
+ }
+}

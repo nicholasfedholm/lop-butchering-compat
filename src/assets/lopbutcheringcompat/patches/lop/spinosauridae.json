@@ -1,0 +1,93 @@
+[
+ {
+  "op": "replace",
+  "path": "/enabled",
+  "value": true,
+  "file": "lopbutcheringcompat:itemtypes/butchercreatures/spinosauridae.json",
+  "dependsOn": [
+   {
+    "modid": "spinosauridae"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/server/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "spinosauridae-spinosaurus-adult-male": "lopbutcheringcompat:deadspinosauridae-spinosaurus-adult-1-dead",
+    "spinosauridae-spinosaurus-adult-female": "lopbutcheringcompat:deadspinosauridae-spinosaurus-adult-1-dead",
+    "spinosauridae-spinosaurus-baby-male": "lopbutcheringcompat:deadspinosauridae-spinosaurus-baby-1-dead",
+    "spinosauridae-spinosaurus-baby-female": "lopbutcheringcompat:deadspinosauridae-spinosaurus-baby-1-dead",
+    "spinosauridae-oxalaia-adult-male": "lopbutcheringcompat:deadspinosauridae-oxalaia-adult-1-dead",
+    "spinosauridae-oxalaia-adult-female": "lopbutcheringcompat:deadspinosauridae-oxalaia-adult-1-dead",
+    "spinosauridae-oxalaia-baby-male": "lopbutcheringcompat:deadspinosauridae-oxalaia-baby-1-dead",
+    "spinosauridae-oxalaia-baby-female": "lopbutcheringcompat:deadspinosauridae-oxalaia-baby-1-dead",
+    "spinosauridae-suchomimus-adult-male": "lopbutcheringcompat:deadspinosauridae-suchomimus-adult-1-dead",
+    "spinosauridae-suchomimus-adult-female": "lopbutcheringcompat:deadspinosauridae-suchomimus-adult-1-dead",
+    "spinosauridae-suchomimus-baby-male": "lopbutcheringcompat:deadspinosauridae-suchomimus-baby-1-dead",
+    "spinosauridae-suchomimus-baby-female": "lopbutcheringcompat:deadspinosauridae-suchomimus-baby-1-dead",
+    "spinosauridae-baryonyx-adult-male": "lopbutcheringcompat:deadspinosauridae-baryonyx-adult-1-dead",
+    "spinosauridae-baryonyx-adult-female": "lopbutcheringcompat:deadspinosauridae-baryonyx-adult-1-dead",
+    "spinosauridae-baryonyx-baby-male": "lopbutcheringcompat:deadspinosauridae-baryonyx-baby-1-dead",
+    "spinosauridae-baryonyx-baby-female": "lopbutcheringcompat:deadspinosauridae-baryonyx-baby-1-dead",
+    "spinosauridae-ichthyovenator-adult-male": "lopbutcheringcompat:deadspinosauridae-ichthyovenator-adult-1-dead",
+    "spinosauridae-ichthyovenator-adult-female": "lopbutcheringcompat:deadspinosauridae-ichthyovenator-adult-1-dead",
+    "spinosauridae-ichthyovenator-baby-male": "lopbutcheringcompat:deadspinosauridae-ichthyovenator-baby-1-dead",
+    "spinosauridae-ichthyovenator-baby-female": "lopbutcheringcompat:deadspinosauridae-ichthyovenator-baby-1-dead",
+    "spinosauridae-irritator-adult-male": "lopbutcheringcompat:deadspinosauridae-irritator-adult-1-dead",
+    "spinosauridae-irritator-adult-female": "lopbutcheringcompat:deadspinosauridae-irritator-adult-1-dead",
+    "spinosauridae-irritator-baby-male": "lopbutcheringcompat:deadspinosauridae-irritator-baby-1-dead",
+    "spinosauridae-irritator-baby-female": "lopbutcheringcompat:deadspinosauridae-irritator-baby-1-dead",
+    "*": "lopbutcheringcompat:deadspinosauridae-spinosaurus-adult-1-dead"
+   }
+  },
+  "file": "spinosauridae:entities/land/spinosauridae.json",
+  "dependsOn": [
+   {
+    "modid": "spinosauridae"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/client/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "spinosauridae-spinosaurus-adult-male": "lopbutcheringcompat:deadspinosauridae-spinosaurus-adult-1-dead",
+    "spinosauridae-spinosaurus-adult-female": "lopbutcheringcompat:deadspinosauridae-spinosaurus-adult-1-dead",
+    "spinosauridae-spinosaurus-baby-male": "lopbutcheringcompat:deadspinosauridae-spinosaurus-baby-1-dead",
+    "spinosauridae-spinosaurus-baby-female": "lopbutcheringcompat:deadspinosauridae-spinosaurus-baby-1-dead",
+    "spinosauridae-oxalaia-adult-male": "lopbutcheringcompat:deadspinosauridae-oxalaia-adult-1-dead",
+    "spinosauridae-oxalaia-adult-female": "lopbutcheringcompat:deadspinosauridae-oxalaia-adult-1-dead",
+    "spinosauridae-oxalaia-baby-male": "lopbutcheringcompat:deadspinosauridae-oxalaia-baby-1-dead",
+    "spinosauridae-oxalaia-baby-female": "lopbutcheringcompat:deadspinosauridae-oxalaia-baby-1-dead",
+    "spinosauridae-suchomimus-adult-male": "lopbutcheringcompat:deadspinosauridae-suchomimus-adult-1-dead",
+    "spinosauridae-suchomimus-adult-female": "lopbutcheringcompat:deadspinosauridae-suchomimus-adult-1-dead",
+    "spinosauridae-suchomimus-baby-male": "lopbutcheringcompat:deadspinosauridae-suchomimus-baby-1-dead",
+    "spinosauridae-suchomimus-baby-female": "lopbutcheringcompat:deadspinosauridae-suchomimus-baby-1-dead",
+    "spinosauridae-baryonyx-adult-male": "lopbutcheringcompat:deadspinosauridae-baryonyx-adult-1-dead",
+    "spinosauridae-baryonyx-adult-female": "lopbutcheringcompat:deadspinosauridae-baryonyx-adult-1-dead",
+    "spinosauridae-baryonyx-baby-male": "lopbutcheringcompat:deadspinosauridae-baryonyx-baby-1-dead",
+    "spinosauridae-baryonyx-baby-female": "lopbutcheringcompat:deadspinosauridae-baryonyx-baby-1-dead",
+    "spinosauridae-ichthyovenator-adult-male": "lopbutcheringcompat:deadspinosauridae-ichthyovenator-adult-1-dead",
+    "spinosauridae-ichthyovenator-adult-female": "lopbutcheringcompat:deadspinosauridae-ichthyovenator-adult-1-dead",
+    "spinosauridae-ichthyovenator-baby-male": "lopbutcheringcompat:deadspinosauridae-ichthyovenator-baby-1-dead",
+    "spinosauridae-ichthyovenator-baby-female": "lopbutcheringcompat:deadspinosauridae-ichthyovenator-baby-1-dead",
+    "spinosauridae-irritator-adult-male": "lopbutcheringcompat:deadspinosauridae-irritator-adult-1-dead",
+    "spinosauridae-irritator-adult-female": "lopbutcheringcompat:deadspinosauridae-irritator-adult-1-dead",
+    "spinosauridae-irritator-baby-male": "lopbutcheringcompat:deadspinosauridae-irritator-baby-1-dead",
+    "spinosauridae-irritator-baby-female": "lopbutcheringcompat:deadspinosauridae-irritator-baby-1-dead",
+    "*": "lopbutcheringcompat:deadspinosauridae-spinosaurus-adult-1-dead"
+   }
+  },
+  "file": "spinosauridae:entities/land/spinosauridae.json",
+  "dependsOn": [
+   {
+    "modid": "spinosauridae"
+   }
+  ]
+ }
+]

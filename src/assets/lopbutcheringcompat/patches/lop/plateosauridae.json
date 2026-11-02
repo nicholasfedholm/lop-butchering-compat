@@ -1,0 +1,61 @@
+[
+ {
+  "op": "replace",
+  "path": "/enabled",
+  "value": true,
+  "file": "lopbutcheringcompat:itemtypes/butchercreatures/plateosauridae.json",
+  "dependsOn": [
+   {
+    "modid": "lopplateosauridae"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/server/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "plateosauridae-plateosaurus-adult-male": "lopbutcheringcompat:deadplateosauridae-plateosaurus-adult-1-dead",
+    "plateosauridae-plateosaurus-adult-female": "lopbutcheringcompat:deadplateosauridae-plateosaurus-adult-1-dead",
+    "plateosauridae-plateosaurus-baby-male": "lopbutcheringcompat:deadplateosauridae-plateosaurus-baby-1-dead",
+    "plateosauridae-plateosaurus-baby-female": "lopbutcheringcompat:deadplateosauridae-plateosaurus-baby-1-dead",
+    "plateosauridae-massospondylus-adult-male": "lopbutcheringcompat:deadplateosauridae-massospondylus-adult-1-dead",
+    "plateosauridae-massospondylus-adult-female": "lopbutcheringcompat:deadplateosauridae-massospondylus-adult-1-dead",
+    "plateosauridae-massospondylus-baby-male": "lopbutcheringcompat:deadplateosauridae-massospondylus-baby-1-dead",
+    "plateosauridae-massospondylus-baby-female": "lopbutcheringcompat:deadplateosauridae-massospondylus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadplateosauridae-plateosaurus-adult-1-dead"
+   }
+  },
+  "file": "lopplateosauridae:entities/land/plateosauridae.json",
+  "dependsOn": [
+   {
+    "modid": "lopplateosauridae"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/client/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "plateosauridae-plateosaurus-adult-male": "lopbutcheringcompat:deadplateosauridae-plateosaurus-adult-1-dead",
+    "plateosauridae-plateosaurus-adult-female": "lopbutcheringcompat:deadplateosauridae-plateosaurus-adult-1-dead",
+    "plateosauridae-plateosaurus-baby-male": "lopbutcheringcompat:deadplateosauridae-plateosaurus-baby-1-dead",
+    "plateosauridae-plateosaurus-baby-female": "lopbutcheringcompat:deadplateosauridae-plateosaurus-baby-1-dead",
+    "plateosauridae-massospondylus-adult-male": "lopbutcheringcompat:deadplateosauridae-massospondylus-adult-1-dead",
+    "plateosauridae-massospondylus-adult-female": "lopbutcheringcompat:deadplateosauridae-massospondylus-adult-1-dead",
+    "plateosauridae-massospondylus-baby-male": "lopbutcheringcompat:deadplateosauridae-massospondylus-baby-1-dead",
+    "plateosauridae-massospondylus-baby-female": "lopbutcheringcompat:deadplateosauridae-massospondylus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadplateosauridae-plateosaurus-adult-1-dead"
+   }
+  },
+  "file": "lopplateosauridae:entities/land/plateosauridae.json",
+  "dependsOn": [
+   {
+    "modid": "lopplateosauridae"
+   }
+  ]
+ }
+]

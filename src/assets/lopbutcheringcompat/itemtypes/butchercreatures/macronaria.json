@@ -1,0 +1,1396 @@
+{
+ "enabled": false,
+ "code": "deadmacronaria",
+ "class": "butcherable",
+ "variantgroups": [
+  {
+   "code": "species",
+   "states": [
+    "ampelosaurus",
+    "antarctosaurus",
+    "argentinosaurus",
+    "brachiosaurus",
+    "bruhathkayosaurus",
+    "camarasaurus",
+    "diamantinasaurus",
+    "dreadnoughtus",
+    "europatitan",
+    "futalognkosaurus",
+    "giraffatitan",
+    "malawisaurus",
+    "patagotitan",
+    "rapetosaurus",
+    "ruyangosaurus"
+   ]
+  },
+  {
+   "code": "age",
+   "states": [
+    "adult",
+    "baby"
+   ]
+  },
+  {
+   "code": "texture",
+   "states": [
+    "1"
+   ]
+  },
+  {
+   "code": "state",
+   "states": [
+    "dead",
+    "skinned",
+    "bledout",
+    "rotten"
+   ]
+  }
+ ],
+ "skipVariants": [],
+ "maxstacksize": 1,
+ "behaviors": [],
+ "texturesByType": {
+  "*-dead": {
+   "meat": {
+    "base": "butchering:item/butchercreatures/animalredmeatbloody"
+   }
+  },
+  "*-skinned": {
+   "fur": {
+    "base": "butchering:item/butchercreatures/animalredmeatbloody"
+   },
+   "meat": {
+    "base": "butchering:item/butchercreatures/animalredmeatbloody"
+   }
+  },
+  "*-bledout": {
+   "fur": {
+    "base": "butchering:item/butchercreatures/animalredmeatbledout"
+   },
+   "meat": {
+    "base": "butchering:item/butchercreatures/animalredmeatbledout"
+   }
+  },
+  "*-rotten": {
+   "fur": {
+    "base": "game:block/creature/rot/rot"
+   },
+   "meat": {
+    "base": "game:block/creature/rot/rot"
+   }
+  }
+ },
+ "attributesByType": {
+  "deadmacronaria-ampelosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.16,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-ampelosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-antarctosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.4,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-antarctosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-argentinosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.4,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-argentinosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-brachiosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.4,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-brachiosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-bruhathkayosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.4,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-bruhathkayosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-camarasaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.4,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-camarasaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-diamantinasaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.4,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-diamantinasaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-dreadnoughtus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.4,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-dreadnoughtus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-europatitan-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.4,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-europatitan-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-futalognkosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.4,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-futalognkosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-giraffatitan-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.4,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-giraffatitan-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-malawisaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.16,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-malawisaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-patagotitan-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.4,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-patagotitan-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-rapetosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.16,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-rapetosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-ruyangosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.4,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/generichuge/huge-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 6,
+      "var": 2
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 0.5
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadmacronaria-ruyangosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  }
+ },
+ "shapeByType": {
+  "deadmacronaria-ampelosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-ampelosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadmacronaria-antarctosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-antarctosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadmacronaria-argentinosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-argentinosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadmacronaria-brachiosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-brachiosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadmacronaria-bruhathkayosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-bruhathkayosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadmacronaria-camarasaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-camarasaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadmacronaria-diamantinasaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-diamantinasaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadmacronaria-dreadnoughtus-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-dreadnoughtus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadmacronaria-europatitan-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-europatitan-baby-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadmacronaria-futalognkosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-futalognkosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadmacronaria-giraffatitan-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-giraffatitan-baby-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadmacronaria-malawisaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-malawisaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadmacronaria-patagotitan-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-patagotitan-baby-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadmacronaria-rapetosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-rapetosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadmacronaria-ruyangosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/generichuge/huge-dead"
+  },
+  "deadmacronaria-ruyangosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  }
+ },
+ "storageFlagsByType": {
+  "*-rotten": 1,
+  "*": 32770
+ },
+ "transitionablePropsByType": {
+  "*-rotten": [],
+  "*": [
+   {
+    "type": "perish",
+    "freshHours": {
+     "avg": 80
+    },
+    "transitionHours": {
+     "avg": 24
+    },
+    "transitionedStack": {
+     "type": "item",
+     "code": "lopbutcheringcompat:deadmacronaria-{species}-{age}-1-rotten"
+    },
+    "transitionRatio": 1
+   }
+  ]
+ },
+ "creativeinventory": {
+  "general": [
+   "*"
+  ],
+  "items": [
+   "*"
+  ]
+ },
+ "heldTpIdleAnimation": "holdunderarm",
+ "guiTransform": {
+  "rotation": {
+   "x": -20,
+   "y": 21,
+   "z": 180
+  },
+  "origin": {
+   "x": 0.53,
+   "y": 0.35,
+   "z": 0.5
+  },
+  "scale": 1,
+  "rotate": true
+ },
+ "fpHandTransform": {
+  "rotation": {
+   "x": -132,
+   "y": -180,
+   "z": -18
+  }
+ },
+ "tpHandTransform": {
+  "translation": {
+   "x": -0.5,
+   "y": -0.3,
+   "z": -0.7
+  },
+  "rotation": {
+   "x": -89,
+   "y": -12,
+   "z": 3
+  },
+  "scale": 0.86
+ },
+ "groundTransform": {
+  "rotation": {
+   "x": 180,
+   "y": 33,
+   "z": -180
+  },
+  "origin": {
+   "x": 0.5,
+   "y": 0,
+   "z": 0.5
+  },
+  "scale": 4.5
+ }
+}

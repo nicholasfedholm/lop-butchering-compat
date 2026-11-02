@@ -1,0 +1,69 @@
+[
+ {
+  "op": "replace",
+  "path": "/enabled",
+  "value": true,
+  "file": "lopbutcheringcompat:itemtypes/butchercreatures/iguanodontia.json",
+  "dependsOn": [
+   {
+    "modid": "lopiguanodontia"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/server/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "iguanodontia-iguanodon-adult-male": "lopbutcheringcompat:deadiguanodontia-iguanodon-adult-1-dead",
+    "iguanodontia-iguanodon-adult-female": "lopbutcheringcompat:deadiguanodontia-iguanodon-adult-1-dead",
+    "iguanodontia-iguanodon-baby-male": "lopbutcheringcompat:deadiguanodontia-iguanodon-baby-1-dead",
+    "iguanodontia-iguanodon-baby-female": "lopbutcheringcompat:deadiguanodontia-iguanodon-baby-1-dead",
+    "iguanodontia-mantellisaurus-adult-male": "lopbutcheringcompat:deadiguanodontia-mantellisaurus-adult-1-dead",
+    "iguanodontia-mantellisaurus-adult-female": "lopbutcheringcompat:deadiguanodontia-mantellisaurus-adult-1-dead",
+    "iguanodontia-mantellisaurus-baby-male": "lopbutcheringcompat:deadiguanodontia-mantellisaurus-baby-1-dead",
+    "iguanodontia-mantellisaurus-baby-female": "lopbutcheringcompat:deadiguanodontia-mantellisaurus-baby-1-dead",
+    "iguanodontia-ouranosaurus-adult-male": "lopbutcheringcompat:deadiguanodontia-ouranosaurus-adult-1-dead",
+    "iguanodontia-ouranosaurus-adult-female": "lopbutcheringcompat:deadiguanodontia-ouranosaurus-adult-1-dead",
+    "iguanodontia-ouranosaurus-baby-male": "lopbutcheringcompat:deadiguanodontia-ouranosaurus-baby-1-dead",
+    "iguanodontia-ouranosaurus-baby-female": "lopbutcheringcompat:deadiguanodontia-ouranosaurus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadiguanodontia-iguanodon-adult-1-dead"
+   }
+  },
+  "file": "lopiguanodontia:entities/land/iguanodontia.json",
+  "dependsOn": [
+   {
+    "modid": "lopiguanodontia"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/client/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "iguanodontia-iguanodon-adult-male": "lopbutcheringcompat:deadiguanodontia-iguanodon-adult-1-dead",
+    "iguanodontia-iguanodon-adult-female": "lopbutcheringcompat:deadiguanodontia-iguanodon-adult-1-dead",
+    "iguanodontia-iguanodon-baby-male": "lopbutcheringcompat:deadiguanodontia-iguanodon-baby-1-dead",
+    "iguanodontia-iguanodon-baby-female": "lopbutcheringcompat:deadiguanodontia-iguanodon-baby-1-dead",
+    "iguanodontia-mantellisaurus-adult-male": "lopbutcheringcompat:deadiguanodontia-mantellisaurus-adult-1-dead",
+    "iguanodontia-mantellisaurus-adult-female": "lopbutcheringcompat:deadiguanodontia-mantellisaurus-adult-1-dead",
+    "iguanodontia-mantellisaurus-baby-male": "lopbutcheringcompat:deadiguanodontia-mantellisaurus-baby-1-dead",
+    "iguanodontia-mantellisaurus-baby-female": "lopbutcheringcompat:deadiguanodontia-mantellisaurus-baby-1-dead",
+    "iguanodontia-ouranosaurus-adult-male": "lopbutcheringcompat:deadiguanodontia-ouranosaurus-adult-1-dead",
+    "iguanodontia-ouranosaurus-adult-female": "lopbutcheringcompat:deadiguanodontia-ouranosaurus-adult-1-dead",
+    "iguanodontia-ouranosaurus-baby-male": "lopbutcheringcompat:deadiguanodontia-ouranosaurus-baby-1-dead",
+    "iguanodontia-ouranosaurus-baby-female": "lopbutcheringcompat:deadiguanodontia-ouranosaurus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadiguanodontia-iguanodon-adult-1-dead"
+   }
+  },
+  "file": "lopiguanodontia:entities/land/iguanodontia.json",
+  "dependsOn": [
+   {
+    "modid": "lopiguanodontia"
+   }
+  ]
+ }
+]

@@ -1,0 +1,77 @@
+[
+ {
+  "op": "replace",
+  "path": "/enabled",
+  "value": true,
+  "file": "lopbutcheringcompat:itemtypes/butchercreatures/allosauridae.json",
+  "dependsOn": [
+   {
+    "modid": "lopallosauridae"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/server/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "allosauridae-allosaurus-adult-male": "lopbutcheringcompat:deadallosauridae-allosaurus-adult-1-dead",
+    "allosauridae-allosaurus-adult-female": "lopbutcheringcompat:deadallosauridae-allosaurus-adult-1-dead",
+    "allosauridae-allosaurus-baby-male": "lopbutcheringcompat:deadallosauridae-allosaurus-baby-1-dead",
+    "allosauridae-allosaurus-baby-female": "lopbutcheringcompat:deadallosauridae-allosaurus-baby-1-dead",
+    "allosauridae-saurophaganax-adult-male": "lopbutcheringcompat:deadallosauridae-saurophaganax-adult-1-dead",
+    "allosauridae-saurophaganax-adult-female": "lopbutcheringcompat:deadallosauridae-saurophaganax-adult-1-dead",
+    "allosauridae-saurophaganax-baby-male": "lopbutcheringcompat:deadallosauridae-saurophaganax-baby-1-dead",
+    "allosauridae-saurophaganax-baby-female": "lopbutcheringcompat:deadallosauridae-saurophaganax-baby-1-dead",
+    "allosauridae-torvosaurus-adult-male": "lopbutcheringcompat:deadallosauridae-torvosaurus-adult-1-dead",
+    "allosauridae-torvosaurus-adult-female": "lopbutcheringcompat:deadallosauridae-torvosaurus-adult-1-dead",
+    "allosauridae-torvosaurus-baby-male": "lopbutcheringcompat:deadallosauridae-torvosaurus-baby-1-dead",
+    "allosauridae-torvosaurus-baby-female": "lopbutcheringcompat:deadallosauridae-torvosaurus-baby-1-dead",
+    "allosauridae-megalosaurus-adult-male": "lopbutcheringcompat:deadallosauridae-megalosaurus-adult-1-dead",
+    "allosauridae-megalosaurus-adult-female": "lopbutcheringcompat:deadallosauridae-megalosaurus-adult-1-dead",
+    "allosauridae-megalosaurus-baby-male": "lopbutcheringcompat:deadallosauridae-megalosaurus-baby-1-dead",
+    "allosauridae-megalosaurus-baby-female": "lopbutcheringcompat:deadallosauridae-megalosaurus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadallosauridae-saurophaganax-adult-1-dead"
+   }
+  },
+  "file": "lopallosauridae:entities/land/allosauridae.json",
+  "dependsOn": [
+   {
+    "modid": "lopallosauridae"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/client/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "allosauridae-allosaurus-adult-male": "lopbutcheringcompat:deadallosauridae-allosaurus-adult-1-dead",
+    "allosauridae-allosaurus-adult-female": "lopbutcheringcompat:deadallosauridae-allosaurus-adult-1-dead",
+    "allosauridae-allosaurus-baby-male": "lopbutcheringcompat:deadallosauridae-allosaurus-baby-1-dead",
+    "allosauridae-allosaurus-baby-female": "lopbutcheringcompat:deadallosauridae-allosaurus-baby-1-dead",
+    "allosauridae-saurophaganax-adult-male": "lopbutcheringcompat:deadallosauridae-saurophaganax-adult-1-dead",
+    "allosauridae-saurophaganax-adult-female": "lopbutcheringcompat:deadallosauridae-saurophaganax-adult-1-dead",
+    "allosauridae-saurophaganax-baby-male": "lopbutcheringcompat:deadallosauridae-saurophaganax-baby-1-dead",
+    "allosauridae-saurophaganax-baby-female": "lopbutcheringcompat:deadallosauridae-saurophaganax-baby-1-dead",
+    "allosauridae-torvosaurus-adult-male": "lopbutcheringcompat:deadallosauridae-torvosaurus-adult-1-dead",
+    "allosauridae-torvosaurus-adult-female": "lopbutcheringcompat:deadallosauridae-torvosaurus-adult-1-dead",
+    "allosauridae-torvosaurus-baby-male": "lopbutcheringcompat:deadallosauridae-torvosaurus-baby-1-dead",
+    "allosauridae-torvosaurus-baby-female": "lopbutcheringcompat:deadallosauridae-torvosaurus-baby-1-dead",
+    "allosauridae-megalosaurus-adult-male": "lopbutcheringcompat:deadallosauridae-megalosaurus-adult-1-dead",
+    "allosauridae-megalosaurus-adult-female": "lopbutcheringcompat:deadallosauridae-megalosaurus-adult-1-dead",
+    "allosauridae-megalosaurus-baby-male": "lopbutcheringcompat:deadallosauridae-megalosaurus-baby-1-dead",
+    "allosauridae-megalosaurus-baby-female": "lopbutcheringcompat:deadallosauridae-megalosaurus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadallosauridae-saurophaganax-adult-1-dead"
+   }
+  },
+  "file": "lopallosauridae:entities/land/allosauridae.json",
+  "dependsOn": [
+   {
+    "modid": "lopallosauridae"
+   }
+  ]
+ }
+]

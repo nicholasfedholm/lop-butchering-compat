@@ -1,0 +1,941 @@
+{
+ "enabled": false,
+ "code": "deadtherizinosauridae",
+ "class": "butcherable",
+ "variantgroups": [
+  {
+   "code": "species",
+   "states": [
+    "alxasaurus",
+    "beipiaosaurus",
+    "erliansaurus",
+    "falcarius",
+    "jianchangosaurus",
+    "neimongosaurus",
+    "nothronychus",
+    "segnosaurus",
+    "suzhousaurus",
+    "therizinosaurus"
+   ]
+  },
+  {
+   "code": "age",
+   "states": [
+    "adult",
+    "baby"
+   ]
+  },
+  {
+   "code": "texture",
+   "states": [
+    "1"
+   ]
+  },
+  {
+   "code": "state",
+   "states": [
+    "dead",
+    "skinned",
+    "bledout",
+    "rotten"
+   ]
+  }
+ ],
+ "skipVariants": [],
+ "maxstacksize": 1,
+ "behaviors": [],
+ "texturesByType": {
+  "*-dead": {
+   "meat": {
+    "base": "butchering:item/butchercreatures/animalredmeatbloody"
+   }
+  },
+  "*-skinned": {
+   "fur": {
+    "base": "butchering:item/butchercreatures/animalredmeatbloody"
+   },
+   "meat": {
+    "base": "butchering:item/butchercreatures/animalredmeatbloody"
+   }
+  },
+  "*-bledout": {
+   "fur": {
+    "base": "butchering:item/butchercreatures/animalredmeatbledout"
+   },
+   "meat": {
+    "base": "butchering:item/butchercreatures/animalredmeatbledout"
+   }
+  },
+  "*-rotten": {
+   "fur": {
+    "base": "game:block/creature/rot/rot"
+   },
+   "meat": {
+    "base": "game:block/creature/rot/rot"
+   }
+  }
+ },
+ "attributesByType": {
+  "deadtherizinosauridae-alxasaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-alxasaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-beipiaosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-beipiaosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-erliansaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-erliansaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-falcarius-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-falcarius-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-jianchangosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-jianchangosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-neimongosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-neimongosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-nothronychus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-nothronychus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-segnosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-segnosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-suzhousaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-suzhousaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 4,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-therizinosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadtherizinosauridae-therizinosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.06,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 400,
+   "butcheringWorkLoad": "large",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericlarge/large-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:primemeat-raw",
+     "quantity": {
+      "avg": 2,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    }
+   ],
+   "skinningRewards": []
+  }
+ },
+ "shapeByType": {
+  "deadtherizinosauridae-alxasaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadtherizinosauridae-alxasaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadtherizinosauridae-beipiaosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadtherizinosauridae-beipiaosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadtherizinosauridae-erliansaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadtherizinosauridae-erliansaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadtherizinosauridae-falcarius-adult-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadtherizinosauridae-falcarius-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadtherizinosauridae-jianchangosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadtherizinosauridae-jianchangosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadtherizinosauridae-neimongosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadtherizinosauridae-neimongosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadtherizinosauridae-nothronychus-adult-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadtherizinosauridae-nothronychus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadtherizinosauridae-segnosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadtherizinosauridae-segnosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadtherizinosauridae-suzhousaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadtherizinosauridae-suzhousaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadtherizinosauridae-therizinosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  },
+  "deadtherizinosauridae-therizinosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericlarge/large-dead"
+  }
+ },
+ "storageFlagsByType": {
+  "*-rotten": 1,
+  "*": 32770
+ },
+ "transitionablePropsByType": {
+  "*-rotten": [],
+  "*": [
+   {
+    "type": "perish",
+    "freshHours": {
+     "avg": 80
+    },
+    "transitionHours": {
+     "avg": 24
+    },
+    "transitionedStack": {
+     "type": "item",
+     "code": "lopbutcheringcompat:deadtherizinosauridae-{species}-{age}-1-rotten"
+    },
+    "transitionRatio": 1
+   }
+  ]
+ },
+ "creativeinventory": {
+  "general": [
+   "*"
+  ],
+  "items": [
+   "*"
+  ]
+ },
+ "heldTpIdleAnimation": "holdunderarm",
+ "guiTransform": {
+  "rotation": {
+   "x": -20,
+   "y": 21,
+   "z": 180
+  },
+  "origin": {
+   "x": 0.53,
+   "y": 0.35,
+   "z": 0.5
+  },
+  "scale": 1,
+  "rotate": true
+ },
+ "fpHandTransform": {
+  "rotation": {
+   "x": -132,
+   "y": -180,
+   "z": -18
+  }
+ },
+ "tpHandTransform": {
+  "translation": {
+   "x": -0.5,
+   "y": -0.3,
+   "z": -0.7
+  },
+  "rotation": {
+   "x": -89,
+   "y": -12,
+   "z": 3
+  },
+  "scale": 0.86
+ },
+ "groundTransform": {
+  "rotation": {
+   "x": 180,
+   "y": 33,
+   "z": -180
+  },
+  "origin": {
+   "x": 0.5,
+   "y": 0,
+   "z": 0.5
+  },
+  "scale": 4.5
+ }
+}

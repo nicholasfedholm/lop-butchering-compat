@@ -1,0 +1,109 @@
+[
+ {
+  "op": "replace",
+  "path": "/enabled",
+  "value": true,
+  "file": "lopbutcheringcompat:itemtypes/butchercreatures/ankylosauria.json",
+  "dependsOn": [
+   {
+    "modid": "ankylosauria"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/server/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "ankylosauria-ankylosaurus-adult-male": "lopbutcheringcompat:deadankylosauria-ankylosaurus-adult-1-dead",
+    "ankylosauria-ankylosaurus-adult-female": "lopbutcheringcompat:deadankylosauria-ankylosaurus-adult-1-dead",
+    "ankylosauria-ankylosaurus-baby-male": "lopbutcheringcompat:deadankylosauria-ankylosaurus-baby-1-dead",
+    "ankylosauria-ankylosaurus-baby-female": "lopbutcheringcompat:deadankylosauria-ankylosaurus-baby-1-dead",
+    "ankylosauria-tarchia-adult-male": "lopbutcheringcompat:deadankylosauria-tarchia-adult-1-dead",
+    "ankylosauria-tarchia-adult-female": "lopbutcheringcompat:deadankylosauria-tarchia-adult-1-dead",
+    "ankylosauria-tarchia-baby-male": "lopbutcheringcompat:deadankylosauria-tarchia-baby-1-dead",
+    "ankylosauria-tarchia-baby-female": "lopbutcheringcompat:deadankylosauria-tarchia-baby-1-dead",
+    "ankylosauria-euoplocephalus-adult-male": "lopbutcheringcompat:deadankylosauria-euoplocephalus-adult-1-dead",
+    "ankylosauria-euoplocephalus-adult-female": "lopbutcheringcompat:deadankylosauria-euoplocephalus-adult-1-dead",
+    "ankylosauria-euoplocephalus-baby-male": "lopbutcheringcompat:deadankylosauria-euoplocephalus-baby-1-dead",
+    "ankylosauria-euoplocephalus-baby-female": "lopbutcheringcompat:deadankylosauria-euoplocephalus-baby-1-dead",
+    "ankylosauria-edmontonia-adult-male": "lopbutcheringcompat:deadankylosauria-edmontonia-adult-1-dead",
+    "ankylosauria-edmontonia-adult-female": "lopbutcheringcompat:deadankylosauria-edmontonia-adult-1-dead",
+    "ankylosauria-edmontonia-baby-male": "lopbutcheringcompat:deadankylosauria-edmontonia-baby-1-dead",
+    "ankylosauria-edmontonia-baby-female": "lopbutcheringcompat:deadankylosauria-edmontonia-baby-1-dead",
+    "ankylosauria-ziapelta-adult-male": "lopbutcheringcompat:deadankylosauria-ziapelta-adult-1-dead",
+    "ankylosauria-ziapelta-adult-female": "lopbutcheringcompat:deadankylosauria-ziapelta-adult-1-dead",
+    "ankylosauria-ziapelta-baby-male": "lopbutcheringcompat:deadankylosauria-ziapelta-baby-1-dead",
+    "ankylosauria-ziapelta-baby-female": "lopbutcheringcompat:deadankylosauria-ziapelta-baby-1-dead",
+    "ankylosauria-pinacosaurus-adult-male": "lopbutcheringcompat:deadankylosauria-pinacosaurus-adult-1-dead",
+    "ankylosauria-pinacosaurus-adult-female": "lopbutcheringcompat:deadankylosauria-pinacosaurus-adult-1-dead",
+    "ankylosauria-pinacosaurus-baby-male": "lopbutcheringcompat:deadankylosauria-pinacosaurus-baby-1-dead",
+    "ankylosauria-pinacosaurus-baby-female": "lopbutcheringcompat:deadankylosauria-pinacosaurus-baby-1-dead",
+    "ankylosauria-antarctopelta-adult-male": "lopbutcheringcompat:deadankylosauria-antarctopelta-adult-1-dead",
+    "ankylosauria-antarctopelta-adult-female": "lopbutcheringcompat:deadankylosauria-antarctopelta-adult-1-dead",
+    "ankylosauria-antarctopelta-baby-male": "lopbutcheringcompat:deadankylosauria-antarctopelta-baby-1-dead",
+    "ankylosauria-antarctopelta-baby-female": "lopbutcheringcompat:deadankylosauria-antarctopelta-baby-1-dead",
+    "ankylosauria-struthiosaurus-adult-male": "lopbutcheringcompat:deadankylosauria-struthiosaurus-adult-1-dead",
+    "ankylosauria-struthiosaurus-adult-female": "lopbutcheringcompat:deadankylosauria-struthiosaurus-adult-1-dead",
+    "ankylosauria-struthiosaurus-baby-male": "lopbutcheringcompat:deadankylosauria-struthiosaurus-baby-1-dead",
+    "ankylosauria-struthiosaurus-baby-female": "lopbutcheringcompat:deadankylosauria-struthiosaurus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadankylosauria-ankylosaurus-adult-1-dead"
+   }
+  },
+  "file": "ankylosauria:entities/land/ankylosauria.json",
+  "dependsOn": [
+   {
+    "modid": "ankylosauria"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/client/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "ankylosauria-ankylosaurus-adult-male": "lopbutcheringcompat:deadankylosauria-ankylosaurus-adult-1-dead",
+    "ankylosauria-ankylosaurus-adult-female": "lopbutcheringcompat:deadankylosauria-ankylosaurus-adult-1-dead",
+    "ankylosauria-ankylosaurus-baby-male": "lopbutcheringcompat:deadankylosauria-ankylosaurus-baby-1-dead",
+    "ankylosauria-ankylosaurus-baby-female": "lopbutcheringcompat:deadankylosauria-ankylosaurus-baby-1-dead",
+    "ankylosauria-tarchia-adult-male": "lopbutcheringcompat:deadankylosauria-tarchia-adult-1-dead",
+    "ankylosauria-tarchia-adult-female": "lopbutcheringcompat:deadankylosauria-tarchia-adult-1-dead",
+    "ankylosauria-tarchia-baby-male": "lopbutcheringcompat:deadankylosauria-tarchia-baby-1-dead",
+    "ankylosauria-tarchia-baby-female": "lopbutcheringcompat:deadankylosauria-tarchia-baby-1-dead",
+    "ankylosauria-euoplocephalus-adult-male": "lopbutcheringcompat:deadankylosauria-euoplocephalus-adult-1-dead",
+    "ankylosauria-euoplocephalus-adult-female": "lopbutcheringcompat:deadankylosauria-euoplocephalus-adult-1-dead",
+    "ankylosauria-euoplocephalus-baby-male": "lopbutcheringcompat:deadankylosauria-euoplocephalus-baby-1-dead",
+    "ankylosauria-euoplocephalus-baby-female": "lopbutcheringcompat:deadankylosauria-euoplocephalus-baby-1-dead",
+    "ankylosauria-edmontonia-adult-male": "lopbutcheringcompat:deadankylosauria-edmontonia-adult-1-dead",
+    "ankylosauria-edmontonia-adult-female": "lopbutcheringcompat:deadankylosauria-edmontonia-adult-1-dead",
+    "ankylosauria-edmontonia-baby-male": "lopbutcheringcompat:deadankylosauria-edmontonia-baby-1-dead",
+    "ankylosauria-edmontonia-baby-female": "lopbutcheringcompat:deadankylosauria-edmontonia-baby-1-dead",
+    "ankylosauria-ziapelta-adult-male": "lopbutcheringcompat:deadankylosauria-ziapelta-adult-1-dead",
+    "ankylosauria-ziapelta-adult-female": "lopbutcheringcompat:deadankylosauria-ziapelta-adult-1-dead",
+    "ankylosauria-ziapelta-baby-male": "lopbutcheringcompat:deadankylosauria-ziapelta-baby-1-dead",
+    "ankylosauria-ziapelta-baby-female": "lopbutcheringcompat:deadankylosauria-ziapelta-baby-1-dead",
+    "ankylosauria-pinacosaurus-adult-male": "lopbutcheringcompat:deadankylosauria-pinacosaurus-adult-1-dead",
+    "ankylosauria-pinacosaurus-adult-female": "lopbutcheringcompat:deadankylosauria-pinacosaurus-adult-1-dead",
+    "ankylosauria-pinacosaurus-baby-male": "lopbutcheringcompat:deadankylosauria-pinacosaurus-baby-1-dead",
+    "ankylosauria-pinacosaurus-baby-female": "lopbutcheringcompat:deadankylosauria-pinacosaurus-baby-1-dead",
+    "ankylosauria-antarctopelta-adult-male": "lopbutcheringcompat:deadankylosauria-antarctopelta-adult-1-dead",
+    "ankylosauria-antarctopelta-adult-female": "lopbutcheringcompat:deadankylosauria-antarctopelta-adult-1-dead",
+    "ankylosauria-antarctopelta-baby-male": "lopbutcheringcompat:deadankylosauria-antarctopelta-baby-1-dead",
+    "ankylosauria-antarctopelta-baby-female": "lopbutcheringcompat:deadankylosauria-antarctopelta-baby-1-dead",
+    "ankylosauria-struthiosaurus-adult-male": "lopbutcheringcompat:deadankylosauria-struthiosaurus-adult-1-dead",
+    "ankylosauria-struthiosaurus-adult-female": "lopbutcheringcompat:deadankylosauria-struthiosaurus-adult-1-dead",
+    "ankylosauria-struthiosaurus-baby-male": "lopbutcheringcompat:deadankylosauria-struthiosaurus-baby-1-dead",
+    "ankylosauria-struthiosaurus-baby-female": "lopbutcheringcompat:deadankylosauria-struthiosaurus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadankylosauria-ankylosaurus-adult-1-dead"
+   }
+  },
+  "file": "ankylosauria:entities/land/ankylosauria.json",
+  "dependsOn": [
+   {
+    "modid": "ankylosauria"
+   }
+  ]
+ }
+]

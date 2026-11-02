@@ -1,0 +1,815 @@
+{
+ "enabled": false,
+ "code": "deadpterosauria",
+ "class": "butcherable",
+ "variantgroups": [
+  {
+   "code": "species",
+   "states": [
+    "dimorphodon",
+    "hatzegopteryx",
+    "nyctosaurus",
+    "pteranodon",
+    "pterodaustro",
+    "quetzalcoatlus",
+    "rhamphorhynchus",
+    "tapejara"
+   ]
+  },
+  {
+   "code": "age",
+   "states": [
+    "adult",
+    "baby"
+   ]
+  },
+  {
+   "code": "texture",
+   "states": [
+    "1"
+   ]
+  },
+  {
+   "code": "state",
+   "states": [
+    "dead",
+    "skinned",
+    "bledout",
+    "rotten"
+   ]
+  }
+ ],
+ "skipVariants": [],
+ "maxstacksize": 1,
+ "behaviors": [],
+ "texturesByType": {
+  "*-dead": {
+   "meat": {
+    "base": "butchering:item/butchercreatures/animalredmeatbloody"
+   }
+  },
+  "*-skinned": {
+   "fur": {
+    "base": "butchering:item/butchercreatures/animalredmeatbloody"
+   },
+   "meat": {
+    "base": "butchering:item/butchercreatures/animalredmeatbloody"
+   }
+  },
+  "*-bledout": {
+   "fur": {
+    "base": "butchering:item/butchercreatures/animalredmeatbledout"
+   },
+   "meat": {
+    "base": "butchering:item/butchercreatures/animalredmeatbledout"
+   }
+  },
+  "*-rotten": {
+   "fur": {
+    "base": "game:block/creature/rot/rot"
+   },
+   "meat": {
+    "base": "game:block/creature/rot/rot"
+   }
+  }
+ },
+ "attributesByType": {
+  "deadpterosauria-dimorphodon-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-dimorphodon-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-hatzegopteryx-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-hatzegopteryx-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-nyctosaurus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-nyctosaurus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-pteranodon-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-pteranodon-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-pterodaustro-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-pterodaustro-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-quetzalcoatlus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.03,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 100,
+   "butcheringWorkLoad": "medium",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericmedium/medium-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 3,
+      "var": 1
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-quetzalcoatlus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-rhamphorhynchus-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-rhamphorhynchus-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-tapejara-adult-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  },
+  "deadpterosauria-tapejara-baby-1-*": {
+   "size": 0.5,
+   "mass": 0.01,
+   "bloodType": "butchering:bloodportion",
+   "bloodAmount": 50,
+   "butcheringWorkLoad": "small",
+   "handbookByType": {
+    "*-rotten": {
+     "exclude": false
+    },
+    "*": {
+     "exclude": true
+    }
+   },
+   "hangingShape": {
+    "base": "butchering:creatures/modded/genericsmall/small-hanging"
+   },
+   "excludeRewards": [],
+   "butcheringRewards": [
+    {
+     "type": "item",
+     "code": "butchering:sinew-wet",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    },
+    {
+     "type": "item",
+     "code": "butchering:offal-bloody",
+     "quantity": {
+      "avg": 1.6,
+      "var": 0.4
+     }
+    }
+   ],
+   "skinningRewards": []
+  }
+ },
+ "shapeByType": {
+  "deadpterosauria-dimorphodon-adult-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadpterosauria-dimorphodon-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadpterosauria-hatzegopteryx-adult-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadpterosauria-hatzegopteryx-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadpterosauria-nyctosaurus-adult-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadpterosauria-nyctosaurus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadpterosauria-pteranodon-adult-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadpterosauria-pteranodon-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadpterosauria-pterodaustro-adult-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadpterosauria-pterodaustro-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadpterosauria-quetzalcoatlus-adult-1-*": {
+   "base": "butchering:creatures/modded/genericmedium/medium-dead"
+  },
+  "deadpterosauria-quetzalcoatlus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadpterosauria-rhamphorhynchus-adult-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadpterosauria-rhamphorhynchus-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadpterosauria-tapejara-adult-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  },
+  "deadpterosauria-tapejara-baby-1-*": {
+   "base": "butchering:creatures/modded/genericsmall/small-dead"
+  }
+ },
+ "storageFlagsByType": {
+  "*-rotten": 1,
+  "*": 32770
+ },
+ "transitionablePropsByType": {
+  "*-rotten": [],
+  "*": [
+   {
+    "type": "perish",
+    "freshHours": {
+     "avg": 80
+    },
+    "transitionHours": {
+     "avg": 24
+    },
+    "transitionedStack": {
+     "type": "item",
+     "code": "lopbutcheringcompat:deadpterosauria-{species}-{age}-1-rotten"
+    },
+    "transitionRatio": 1
+   }
+  ]
+ },
+ "creativeinventory": {
+  "general": [
+   "*"
+  ],
+  "items": [
+   "*"
+  ]
+ },
+ "heldTpIdleAnimation": "holdunderarm",
+ "guiTransform": {
+  "rotation": {
+   "x": -20,
+   "y": 21,
+   "z": 180
+  },
+  "origin": {
+   "x": 0.53,
+   "y": 0.35,
+   "z": 0.5
+  },
+  "scale": 1,
+  "rotate": true
+ },
+ "fpHandTransform": {
+  "rotation": {
+   "x": -132,
+   "y": -180,
+   "z": -18
+  }
+ },
+ "tpHandTransform": {
+  "translation": {
+   "x": -0.5,
+   "y": -0.3,
+   "z": -0.7
+  },
+  "rotation": {
+   "x": -89,
+   "y": -12,
+   "z": 3
+  },
+  "scale": 0.86
+ },
+ "groundTransform": {
+  "rotation": {
+   "x": 180,
+   "y": 33,
+   "z": -180
+  },
+  "origin": {
+   "x": 0.5,
+   "y": 0,
+   "z": 0.5
+  },
+  "scale": 4.5
+ }
+}

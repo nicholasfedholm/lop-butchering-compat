@@ -1,0 +1,69 @@
+[
+ {
+  "op": "replace",
+  "path": "/enabled",
+  "value": true,
+  "file": "lopbutcheringcompat:itemtypes/butchercreatures/plesiosauria.json",
+  "dependsOn": [
+   {
+    "modid": "lopplesiosauria"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/server/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "plesiosauria-plesiosaurus-adult-male": "lopbutcheringcompat:deadplesiosauria-plesiosaurus-adult-1-dead",
+    "plesiosauria-plesiosaurus-adult-female": "lopbutcheringcompat:deadplesiosauria-plesiosaurus-adult-1-dead",
+    "plesiosauria-plesiosaurus-baby-male": "lopbutcheringcompat:deadplesiosauria-plesiosaurus-baby-1-dead",
+    "plesiosauria-plesiosaurus-baby-female": "lopbutcheringcompat:deadplesiosauria-plesiosaurus-baby-1-dead",
+    "plesiosauria-elasmosaurus-adult-male": "lopbutcheringcompat:deadplesiosauria-elasmosaurus-adult-1-dead",
+    "plesiosauria-elasmosaurus-adult-female": "lopbutcheringcompat:deadplesiosauria-elasmosaurus-adult-1-dead",
+    "plesiosauria-elasmosaurus-baby-male": "lopbutcheringcompat:deadplesiosauria-elasmosaurus-baby-1-dead",
+    "plesiosauria-elasmosaurus-baby-female": "lopbutcheringcompat:deadplesiosauria-elasmosaurus-baby-1-dead",
+    "plesiosauria-pliosaurus-adult-male": "lopbutcheringcompat:deadplesiosauria-pliosaurus-adult-1-dead",
+    "plesiosauria-pliosaurus-adult-female": "lopbutcheringcompat:deadplesiosauria-pliosaurus-adult-1-dead",
+    "plesiosauria-pliosaurus-baby-male": "lopbutcheringcompat:deadplesiosauria-pliosaurus-baby-1-dead",
+    "plesiosauria-pliosaurus-baby-female": "lopbutcheringcompat:deadplesiosauria-pliosaurus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadplesiosauria-elasmosaurus-adult-1-dead"
+   }
+  },
+  "file": "lopplesiosauria:entities/land/plesiosauria.json",
+  "dependsOn": [
+   {
+    "modid": "lopplesiosauria"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/client/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "plesiosauria-plesiosaurus-adult-male": "lopbutcheringcompat:deadplesiosauria-plesiosaurus-adult-1-dead",
+    "plesiosauria-plesiosaurus-adult-female": "lopbutcheringcompat:deadplesiosauria-plesiosaurus-adult-1-dead",
+    "plesiosauria-plesiosaurus-baby-male": "lopbutcheringcompat:deadplesiosauria-plesiosaurus-baby-1-dead",
+    "plesiosauria-plesiosaurus-baby-female": "lopbutcheringcompat:deadplesiosauria-plesiosaurus-baby-1-dead",
+    "plesiosauria-elasmosaurus-adult-male": "lopbutcheringcompat:deadplesiosauria-elasmosaurus-adult-1-dead",
+    "plesiosauria-elasmosaurus-adult-female": "lopbutcheringcompat:deadplesiosauria-elasmosaurus-adult-1-dead",
+    "plesiosauria-elasmosaurus-baby-male": "lopbutcheringcompat:deadplesiosauria-elasmosaurus-baby-1-dead",
+    "plesiosauria-elasmosaurus-baby-female": "lopbutcheringcompat:deadplesiosauria-elasmosaurus-baby-1-dead",
+    "plesiosauria-pliosaurus-adult-male": "lopbutcheringcompat:deadplesiosauria-pliosaurus-adult-1-dead",
+    "plesiosauria-pliosaurus-adult-female": "lopbutcheringcompat:deadplesiosauria-pliosaurus-adult-1-dead",
+    "plesiosauria-pliosaurus-baby-male": "lopbutcheringcompat:deadplesiosauria-pliosaurus-baby-1-dead",
+    "plesiosauria-pliosaurus-baby-female": "lopbutcheringcompat:deadplesiosauria-pliosaurus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadplesiosauria-elasmosaurus-adult-1-dead"
+   }
+  },
+  "file": "lopplesiosauria:entities/land/plesiosauria.json",
+  "dependsOn": [
+   {
+    "modid": "lopplesiosauria"
+   }
+  ]
+ }
+]

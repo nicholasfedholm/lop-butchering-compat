@@ -1,0 +1,61 @@
+[
+ {
+  "op": "replace",
+  "path": "/enabled",
+  "value": true,
+  "file": "lopbutcheringcompat:itemtypes/butchercreatures/compsognathidae.json",
+  "dependsOn": [
+   {
+    "modid": "lopcompsognathidae"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/server/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "compsognathidae-compsognathus-adult-male": "lopbutcheringcompat:deadcompsognathidae-compsognathus-adult-1-dead",
+    "compsognathidae-compsognathus-adult-female": "lopbutcheringcompat:deadcompsognathidae-compsognathus-adult-1-dead",
+    "compsognathidae-compsognathus-baby-male": "lopbutcheringcompat:deadcompsognathidae-compsognathus-baby-1-dead",
+    "compsognathidae-compsognathus-baby-female": "lopbutcheringcompat:deadcompsognathidae-compsognathus-baby-1-dead",
+    "compsognathidae-sinosauropteryx-adult-male": "lopbutcheringcompat:deadcompsognathidae-sinosauropteryx-adult-1-dead",
+    "compsognathidae-sinosauropteryx-adult-female": "lopbutcheringcompat:deadcompsognathidae-sinosauropteryx-adult-1-dead",
+    "compsognathidae-sinosauropteryx-baby-male": "lopbutcheringcompat:deadcompsognathidae-sinosauropteryx-baby-1-dead",
+    "compsognathidae-sinosauropteryx-baby-female": "lopbutcheringcompat:deadcompsognathidae-sinosauropteryx-baby-1-dead",
+    "*": "lopbutcheringcompat:deadcompsognathidae-compsognathus-adult-1-dead"
+   }
+  },
+  "file": "lopcompsognathidae:entities/land/compsognathidae.json",
+  "dependsOn": [
+   {
+    "modid": "lopcompsognathidae"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/client/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "compsognathidae-compsognathus-adult-male": "lopbutcheringcompat:deadcompsognathidae-compsognathus-adult-1-dead",
+    "compsognathidae-compsognathus-adult-female": "lopbutcheringcompat:deadcompsognathidae-compsognathus-adult-1-dead",
+    "compsognathidae-compsognathus-baby-male": "lopbutcheringcompat:deadcompsognathidae-compsognathus-baby-1-dead",
+    "compsognathidae-compsognathus-baby-female": "lopbutcheringcompat:deadcompsognathidae-compsognathus-baby-1-dead",
+    "compsognathidae-sinosauropteryx-adult-male": "lopbutcheringcompat:deadcompsognathidae-sinosauropteryx-adult-1-dead",
+    "compsognathidae-sinosauropteryx-adult-female": "lopbutcheringcompat:deadcompsognathidae-sinosauropteryx-adult-1-dead",
+    "compsognathidae-sinosauropteryx-baby-male": "lopbutcheringcompat:deadcompsognathidae-sinosauropteryx-baby-1-dead",
+    "compsognathidae-sinosauropteryx-baby-female": "lopbutcheringcompat:deadcompsognathidae-sinosauropteryx-baby-1-dead",
+    "*": "lopbutcheringcompat:deadcompsognathidae-compsognathus-adult-1-dead"
+   }
+  },
+  "file": "lopcompsognathidae:entities/land/compsognathidae.json",
+  "dependsOn": [
+   {
+    "modid": "lopcompsognathidae"
+   }
+  ]
+ }
+]

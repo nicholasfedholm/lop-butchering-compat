@@ -1,0 +1,125 @@
+[
+ {
+  "op": "replace",
+  "path": "/enabled",
+  "value": true,
+  "file": "lopbutcheringcompat:itemtypes/butchercreatures/therizinosauridae.json",
+  "dependsOn": [
+   {
+    "modid": "therizinosauridae"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/server/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "therizinosauridae-therizinosaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-therizinosaurus-adult-1-dead",
+    "therizinosauridae-therizinosaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-therizinosaurus-adult-1-dead",
+    "therizinosauridae-therizinosaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-therizinosaurus-baby-1-dead",
+    "therizinosauridae-therizinosaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-therizinosaurus-baby-1-dead",
+    "therizinosauridae-segnosaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-segnosaurus-adult-1-dead",
+    "therizinosauridae-segnosaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-segnosaurus-adult-1-dead",
+    "therizinosauridae-segnosaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-segnosaurus-baby-1-dead",
+    "therizinosauridae-segnosaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-segnosaurus-baby-1-dead",
+    "therizinosauridae-suzhousaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-suzhousaurus-adult-1-dead",
+    "therizinosauridae-suzhousaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-suzhousaurus-adult-1-dead",
+    "therizinosauridae-suzhousaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-suzhousaurus-baby-1-dead",
+    "therizinosauridae-suzhousaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-suzhousaurus-baby-1-dead",
+    "therizinosauridae-nothronychus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-nothronychus-adult-1-dead",
+    "therizinosauridae-nothronychus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-nothronychus-adult-1-dead",
+    "therizinosauridae-nothronychus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-nothronychus-baby-1-dead",
+    "therizinosauridae-nothronychus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-nothronychus-baby-1-dead",
+    "therizinosauridae-alxasaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-alxasaurus-adult-1-dead",
+    "therizinosauridae-alxasaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-alxasaurus-adult-1-dead",
+    "therizinosauridae-alxasaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-alxasaurus-baby-1-dead",
+    "therizinosauridae-alxasaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-alxasaurus-baby-1-dead",
+    "therizinosauridae-falcarius-adult-male": "lopbutcheringcompat:deadtherizinosauridae-falcarius-adult-1-dead",
+    "therizinosauridae-falcarius-adult-female": "lopbutcheringcompat:deadtherizinosauridae-falcarius-adult-1-dead",
+    "therizinosauridae-falcarius-baby-male": "lopbutcheringcompat:deadtherizinosauridae-falcarius-baby-1-dead",
+    "therizinosauridae-falcarius-baby-female": "lopbutcheringcompat:deadtherizinosauridae-falcarius-baby-1-dead",
+    "therizinosauridae-erliansaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-erliansaurus-adult-1-dead",
+    "therizinosauridae-erliansaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-erliansaurus-adult-1-dead",
+    "therizinosauridae-erliansaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-erliansaurus-baby-1-dead",
+    "therizinosauridae-erliansaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-erliansaurus-baby-1-dead",
+    "therizinosauridae-jianchangosaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-jianchangosaurus-adult-1-dead",
+    "therizinosauridae-jianchangosaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-jianchangosaurus-adult-1-dead",
+    "therizinosauridae-jianchangosaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-jianchangosaurus-baby-1-dead",
+    "therizinosauridae-jianchangosaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-jianchangosaurus-baby-1-dead",
+    "therizinosauridae-beipiaosaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-beipiaosaurus-adult-1-dead",
+    "therizinosauridae-beipiaosaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-beipiaosaurus-adult-1-dead",
+    "therizinosauridae-beipiaosaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-beipiaosaurus-baby-1-dead",
+    "therizinosauridae-beipiaosaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-beipiaosaurus-baby-1-dead",
+    "therizinosauridae-neimongosaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-neimongosaurus-adult-1-dead",
+    "therizinosauridae-neimongosaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-neimongosaurus-adult-1-dead",
+    "therizinosauridae-neimongosaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-neimongosaurus-baby-1-dead",
+    "therizinosauridae-neimongosaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-neimongosaurus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadtherizinosauridae-therizinosaurus-adult-1-dead"
+   }
+  },
+  "file": "therizinosauridae:entities/land/therizinosauridae.json",
+  "dependsOn": [
+   {
+    "modid": "therizinosauridae"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/client/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "therizinosauridae-therizinosaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-therizinosaurus-adult-1-dead",
+    "therizinosauridae-therizinosaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-therizinosaurus-adult-1-dead",
+    "therizinosauridae-therizinosaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-therizinosaurus-baby-1-dead",
+    "therizinosauridae-therizinosaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-therizinosaurus-baby-1-dead",
+    "therizinosauridae-segnosaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-segnosaurus-adult-1-dead",
+    "therizinosauridae-segnosaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-segnosaurus-adult-1-dead",
+    "therizinosauridae-segnosaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-segnosaurus-baby-1-dead",
+    "therizinosauridae-segnosaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-segnosaurus-baby-1-dead",
+    "therizinosauridae-suzhousaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-suzhousaurus-adult-1-dead",
+    "therizinosauridae-suzhousaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-suzhousaurus-adult-1-dead",
+    "therizinosauridae-suzhousaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-suzhousaurus-baby-1-dead",
+    "therizinosauridae-suzhousaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-suzhousaurus-baby-1-dead",
+    "therizinosauridae-nothronychus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-nothronychus-adult-1-dead",
+    "therizinosauridae-nothronychus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-nothronychus-adult-1-dead",
+    "therizinosauridae-nothronychus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-nothronychus-baby-1-dead",
+    "therizinosauridae-nothronychus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-nothronychus-baby-1-dead",
+    "therizinosauridae-alxasaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-alxasaurus-adult-1-dead",
+    "therizinosauridae-alxasaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-alxasaurus-adult-1-dead",
+    "therizinosauridae-alxasaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-alxasaurus-baby-1-dead",
+    "therizinosauridae-alxasaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-alxasaurus-baby-1-dead",
+    "therizinosauridae-falcarius-adult-male": "lopbutcheringcompat:deadtherizinosauridae-falcarius-adult-1-dead",
+    "therizinosauridae-falcarius-adult-female": "lopbutcheringcompat:deadtherizinosauridae-falcarius-adult-1-dead",
+    "therizinosauridae-falcarius-baby-male": "lopbutcheringcompat:deadtherizinosauridae-falcarius-baby-1-dead",
+    "therizinosauridae-falcarius-baby-female": "lopbutcheringcompat:deadtherizinosauridae-falcarius-baby-1-dead",
+    "therizinosauridae-erliansaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-erliansaurus-adult-1-dead",
+    "therizinosauridae-erliansaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-erliansaurus-adult-1-dead",
+    "therizinosauridae-erliansaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-erliansaurus-baby-1-dead",
+    "therizinosauridae-erliansaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-erliansaurus-baby-1-dead",
+    "therizinosauridae-jianchangosaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-jianchangosaurus-adult-1-dead",
+    "therizinosauridae-jianchangosaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-jianchangosaurus-adult-1-dead",
+    "therizinosauridae-jianchangosaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-jianchangosaurus-baby-1-dead",
+    "therizinosauridae-jianchangosaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-jianchangosaurus-baby-1-dead",
+    "therizinosauridae-beipiaosaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-beipiaosaurus-adult-1-dead",
+    "therizinosauridae-beipiaosaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-beipiaosaurus-adult-1-dead",
+    "therizinosauridae-beipiaosaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-beipiaosaurus-baby-1-dead",
+    "therizinosauridae-beipiaosaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-beipiaosaurus-baby-1-dead",
+    "therizinosauridae-neimongosaurus-adult-male": "lopbutcheringcompat:deadtherizinosauridae-neimongosaurus-adult-1-dead",
+    "therizinosauridae-neimongosaurus-adult-female": "lopbutcheringcompat:deadtherizinosauridae-neimongosaurus-adult-1-dead",
+    "therizinosauridae-neimongosaurus-baby-male": "lopbutcheringcompat:deadtherizinosauridae-neimongosaurus-baby-1-dead",
+    "therizinosauridae-neimongosaurus-baby-female": "lopbutcheringcompat:deadtherizinosauridae-neimongosaurus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadtherizinosauridae-therizinosaurus-adult-1-dead"
+   }
+  },
+  "file": "therizinosauridae:entities/land/therizinosauridae.json",
+  "dependsOn": [
+   {
+    "modid": "therizinosauridae"
+   }
+  ]
+ }
+]

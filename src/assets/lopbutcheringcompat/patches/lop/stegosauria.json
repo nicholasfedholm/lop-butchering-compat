@@ -1,0 +1,141 @@
+[
+ {
+  "op": "replace",
+  "path": "/enabled",
+  "value": true,
+  "file": "lopbutcheringcompat:itemtypes/butchercreatures/stegosauria.json",
+  "dependsOn": [
+   {
+    "modid": "stegosauria"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/server/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "stegosauria-stegosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-stegosaurus-adult-1-dead",
+    "stegosauria-stegosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-stegosaurus-adult-1-dead",
+    "stegosauria-stegosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-stegosaurus-baby-1-dead",
+    "stegosauria-stegosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-stegosaurus-baby-1-dead",
+    "stegosauria-dacentrurus-adult-male": "lopbutcheringcompat:deadstegosauria-dacentrurus-adult-1-dead",
+    "stegosauria-dacentrurus-adult-female": "lopbutcheringcompat:deadstegosauria-dacentrurus-adult-1-dead",
+    "stegosauria-dacentrurus-baby-male": "lopbutcheringcompat:deadstegosauria-dacentrurus-baby-1-dead",
+    "stegosauria-dacentrurus-baby-female": "lopbutcheringcompat:deadstegosauria-dacentrurus-baby-1-dead",
+    "stegosauria-wuerhosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-wuerhosaurus-adult-1-dead",
+    "stegosauria-wuerhosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-wuerhosaurus-adult-1-dead",
+    "stegosauria-wuerhosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-wuerhosaurus-baby-1-dead",
+    "stegosauria-wuerhosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-wuerhosaurus-baby-1-dead",
+    "stegosauria-hesperosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-hesperosaurus-adult-1-dead",
+    "stegosauria-hesperosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-hesperosaurus-adult-1-dead",
+    "stegosauria-hesperosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-hesperosaurus-baby-1-dead",
+    "stegosauria-hesperosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-hesperosaurus-baby-1-dead",
+    "stegosauria-tuojiangosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-tuojiangosaurus-adult-1-dead",
+    "stegosauria-tuojiangosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-tuojiangosaurus-adult-1-dead",
+    "stegosauria-tuojiangosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-tuojiangosaurus-baby-1-dead",
+    "stegosauria-tuojiangosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-tuojiangosaurus-baby-1-dead",
+    "stegosauria-alcovasaurus-adult-male": "lopbutcheringcompat:deadstegosauria-alcovasaurus-adult-1-dead",
+    "stegosauria-alcovasaurus-adult-female": "lopbutcheringcompat:deadstegosauria-alcovasaurus-adult-1-dead",
+    "stegosauria-alcovasaurus-baby-male": "lopbutcheringcompat:deadstegosauria-alcovasaurus-baby-1-dead",
+    "stegosauria-alcovasaurus-baby-female": "lopbutcheringcompat:deadstegosauria-alcovasaurus-baby-1-dead",
+    "stegosauria-miragaia-adult-male": "lopbutcheringcompat:deadstegosauria-miragaia-adult-1-dead",
+    "stegosauria-miragaia-adult-female": "lopbutcheringcompat:deadstegosauria-miragaia-adult-1-dead",
+    "stegosauria-miragaia-baby-male": "lopbutcheringcompat:deadstegosauria-miragaia-baby-1-dead",
+    "stegosauria-miragaia-baby-female": "lopbutcheringcompat:deadstegosauria-miragaia-baby-1-dead",
+    "stegosauria-isaberrysaura-adult-male": "lopbutcheringcompat:deadstegosauria-isaberrysaura-adult-1-dead",
+    "stegosauria-isaberrysaura-adult-female": "lopbutcheringcompat:deadstegosauria-isaberrysaura-adult-1-dead",
+    "stegosauria-isaberrysaura-baby-male": "lopbutcheringcompat:deadstegosauria-isaberrysaura-baby-1-dead",
+    "stegosauria-isaberrysaura-baby-female": "lopbutcheringcompat:deadstegosauria-isaberrysaura-baby-1-dead",
+    "stegosauria-kentrosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-kentrosaurus-adult-1-dead",
+    "stegosauria-kentrosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-kentrosaurus-adult-1-dead",
+    "stegosauria-kentrosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-kentrosaurus-baby-1-dead",
+    "stegosauria-kentrosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-kentrosaurus-baby-1-dead",
+    "stegosauria-huayangosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-huayangosaurus-adult-1-dead",
+    "stegosauria-huayangosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-huayangosaurus-adult-1-dead",
+    "stegosauria-huayangosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-huayangosaurus-baby-1-dead",
+    "stegosauria-huayangosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-huayangosaurus-baby-1-dead",
+    "stegosauria-gigantspinosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-gigantspinosaurus-adult-1-dead",
+    "stegosauria-gigantspinosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-gigantspinosaurus-adult-1-dead",
+    "stegosauria-gigantspinosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-gigantspinosaurus-baby-1-dead",
+    "stegosauria-gigantspinosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-gigantspinosaurus-baby-1-dead",
+    "stegosauria-chungkingosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-chungkingosaurus-adult-1-dead",
+    "stegosauria-chungkingosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-chungkingosaurus-adult-1-dead",
+    "stegosauria-chungkingosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-chungkingosaurus-baby-1-dead",
+    "stegosauria-chungkingosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-chungkingosaurus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadstegosauria-stegosaurus-adult-1-dead"
+   }
+  },
+  "file": "stegosauria:entities/land/stegosauria.json",
+  "dependsOn": [
+   {
+    "modid": "stegosauria"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/client/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "itemByType": {
+    "stegosauria-stegosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-stegosaurus-adult-1-dead",
+    "stegosauria-stegosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-stegosaurus-adult-1-dead",
+    "stegosauria-stegosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-stegosaurus-baby-1-dead",
+    "stegosauria-stegosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-stegosaurus-baby-1-dead",
+    "stegosauria-dacentrurus-adult-male": "lopbutcheringcompat:deadstegosauria-dacentrurus-adult-1-dead",
+    "stegosauria-dacentrurus-adult-female": "lopbutcheringcompat:deadstegosauria-dacentrurus-adult-1-dead",
+    "stegosauria-dacentrurus-baby-male": "lopbutcheringcompat:deadstegosauria-dacentrurus-baby-1-dead",
+    "stegosauria-dacentrurus-baby-female": "lopbutcheringcompat:deadstegosauria-dacentrurus-baby-1-dead",
+    "stegosauria-wuerhosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-wuerhosaurus-adult-1-dead",
+    "stegosauria-wuerhosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-wuerhosaurus-adult-1-dead",
+    "stegosauria-wuerhosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-wuerhosaurus-baby-1-dead",
+    "stegosauria-wuerhosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-wuerhosaurus-baby-1-dead",
+    "stegosauria-hesperosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-hesperosaurus-adult-1-dead",
+    "stegosauria-hesperosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-hesperosaurus-adult-1-dead",
+    "stegosauria-hesperosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-hesperosaurus-baby-1-dead",
+    "stegosauria-hesperosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-hesperosaurus-baby-1-dead",
+    "stegosauria-tuojiangosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-tuojiangosaurus-adult-1-dead",
+    "stegosauria-tuojiangosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-tuojiangosaurus-adult-1-dead",
+    "stegosauria-tuojiangosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-tuojiangosaurus-baby-1-dead",
+    "stegosauria-tuojiangosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-tuojiangosaurus-baby-1-dead",
+    "stegosauria-alcovasaurus-adult-male": "lopbutcheringcompat:deadstegosauria-alcovasaurus-adult-1-dead",
+    "stegosauria-alcovasaurus-adult-female": "lopbutcheringcompat:deadstegosauria-alcovasaurus-adult-1-dead",
+    "stegosauria-alcovasaurus-baby-male": "lopbutcheringcompat:deadstegosauria-alcovasaurus-baby-1-dead",
+    "stegosauria-alcovasaurus-baby-female": "lopbutcheringcompat:deadstegosauria-alcovasaurus-baby-1-dead",
+    "stegosauria-miragaia-adult-male": "lopbutcheringcompat:deadstegosauria-miragaia-adult-1-dead",
+    "stegosauria-miragaia-adult-female": "lopbutcheringcompat:deadstegosauria-miragaia-adult-1-dead",
+    "stegosauria-miragaia-baby-male": "lopbutcheringcompat:deadstegosauria-miragaia-baby-1-dead",
+    "stegosauria-miragaia-baby-female": "lopbutcheringcompat:deadstegosauria-miragaia-baby-1-dead",
+    "stegosauria-isaberrysaura-adult-male": "lopbutcheringcompat:deadstegosauria-isaberrysaura-adult-1-dead",
+    "stegosauria-isaberrysaura-adult-female": "lopbutcheringcompat:deadstegosauria-isaberrysaura-adult-1-dead",
+    "stegosauria-isaberrysaura-baby-male": "lopbutcheringcompat:deadstegosauria-isaberrysaura-baby-1-dead",
+    "stegosauria-isaberrysaura-baby-female": "lopbutcheringcompat:deadstegosauria-isaberrysaura-baby-1-dead",
+    "stegosauria-kentrosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-kentrosaurus-adult-1-dead",
+    "stegosauria-kentrosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-kentrosaurus-adult-1-dead",
+    "stegosauria-kentrosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-kentrosaurus-baby-1-dead",
+    "stegosauria-kentrosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-kentrosaurus-baby-1-dead",
+    "stegosauria-huayangosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-huayangosaurus-adult-1-dead",
+    "stegosauria-huayangosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-huayangosaurus-adult-1-dead",
+    "stegosauria-huayangosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-huayangosaurus-baby-1-dead",
+    "stegosauria-huayangosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-huayangosaurus-baby-1-dead",
+    "stegosauria-gigantspinosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-gigantspinosaurus-adult-1-dead",
+    "stegosauria-gigantspinosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-gigantspinosaurus-adult-1-dead",
+    "stegosauria-gigantspinosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-gigantspinosaurus-baby-1-dead",
+    "stegosauria-gigantspinosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-gigantspinosaurus-baby-1-dead",
+    "stegosauria-chungkingosaurus-adult-male": "lopbutcheringcompat:deadstegosauria-chungkingosaurus-adult-1-dead",
+    "stegosauria-chungkingosaurus-adult-female": "lopbutcheringcompat:deadstegosauria-chungkingosaurus-adult-1-dead",
+    "stegosauria-chungkingosaurus-baby-male": "lopbutcheringcompat:deadstegosauria-chungkingosaurus-baby-1-dead",
+    "stegosauria-chungkingosaurus-baby-female": "lopbutcheringcompat:deadstegosauria-chungkingosaurus-baby-1-dead",
+    "*": "lopbutcheringcompat:deadstegosauria-stegosaurus-adult-1-dead"
+   }
+  },
+  "file": "stegosauria:entities/land/stegosauria.json",
+  "dependsOn": [
+   {
+    "modid": "stegosauria"
+   }
+  ]
+ }
+]
